@@ -4,15 +4,39 @@ using UnityEngine;
 
 public class PlayerShooting : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+   
+    public float damage = 10f;
+    public float range = 100f;
+    public Camera fpsCam;
+    public ParticleSystem MuzzleFlash;
+    public GameObject ImpactEffect;
 
-    // Update is called once per frame
     void Update()
     {
-        
+
+        if(Input.GetButtonDown("Fire1"))
+        {
+            Shoot();
+        }
+    }
+    void Shoot ()
+    {
+
+
+
+        MuzzleFlash.Play();
+
+        RaycastHit hit;
+        if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
+        {
+            Debug.Log(hit.transform.name);
+
+            Enemy Enemy = hit.transform.GetComponent<Enemy>();
+            if (Enemy != null)
+            {
+                Enemy.TakeDamage(damage);
+            }
+            Instantiate(ImpactEffect, hit.point, Quaternion.LookRotation(hit.normal));
+        }
     }
 }
