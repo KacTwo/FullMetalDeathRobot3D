@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
     public float JumpHeight = 3f;
+    
 
     Vector3 velocity;
     bool IsGrounded;
@@ -31,7 +32,6 @@ public class PlayerMovement : MonoBehaviour
         float z = Input.GetAxis("Vertical");
 
         Vector3 move = transform.right * x + transform.forward * z;
-
 
         controller.Move(move * speed * Time.deltaTime);
 

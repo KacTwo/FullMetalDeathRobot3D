@@ -10,12 +10,18 @@ public class PlayerShooting : MonoBehaviour
     public Camera fpsCam;
     public ParticleSystem MuzzleFlash;
     public GameObject ImpactEffect;
+    public float impactforce = 30f;
+    public float Firerate = 15f;
+    private float nextTimeToFire = 0f;
+    public AudioClip ShootSound;
 
     void Update()
     {
 
-        if(Input.GetButtonDown("Fire1"))
+        if(Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
         {
+            SoundMenager.instance.Play(ShootSound);
+            nextTimeToFire = Time.time + 1f / Firerate;
             Shoot();
         }
     }
@@ -29,14 +35,20 @@ public class PlayerShooting : MonoBehaviour
         RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
-            Debug.Log(hit.transform.name);
 
             Enemy Enemy = hit.transform.GetComponent<Enemy>();
             if (Enemy != null)
             {
                 Enemy.TakeDamage(damage);
             }
-            Instantiate(ImpactEffect, hit.point, Quaternion.LookRotation(hit.normal));
+
+            if (hit.rigidbody != null)
+            {
+                hit.rigidbody.AddForce(-hit.normal*impactforce);
+            }
+
+           GameObject ImpactGo = Instantiate(ImpactEffect, hit.point, Quaternion.LookRotation(hit.normal));
+           Destroy(ImpactGo, 2f);
         }
     }
 }
