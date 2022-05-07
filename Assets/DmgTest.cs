@@ -22,6 +22,10 @@ public class DmgTest : MonoBehaviour
         Debug.Log("DMG Taken");
         Destroy(gameObject);
         }
+        else
+        {
+            Destroy(gameObject, 10f);
+        }
 
     }
 

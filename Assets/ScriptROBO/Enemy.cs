@@ -37,7 +37,7 @@ public class Enemy : MonoBehaviour
     private void Awake() {
 
 
-        player = GameObject.Find("RoboFPS").transform;
+        player = GameObject.Find("FPSRigi").transform;
         agent = GetComponent<NavMeshAgent>();
         
     }
@@ -72,7 +72,10 @@ public class Enemy : MonoBehaviour
     {
         float randomZ = Random.Range(-walkPointRange, walkPointRange);
         float randomX = Random.Range(-walkPointRange, walkPointRange);
-        WalkPoint =  new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
+
+        WalkPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
+        
+
         if (Physics.Raycast(WalkPoint, -transform.up, 2f, WhatIsGround))
         walkPointSet = true; 
 
@@ -93,8 +96,9 @@ public class Enemy : MonoBehaviour
         {
 
             Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+
             rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            rb.AddForce(transform.up * 8f, ForceMode.Impulse);
+            rb.AddForce(transform.up * 4f, ForceMode.Impulse);
 
 
 
@@ -105,6 +109,17 @@ public class Enemy : MonoBehaviour
 
 
     }
+
+
+     private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, attackRange);
+        Gizmos.color = Color.yellow;
+        Gizmos.DrawWireSphere(transform.position, sightRange);
+    }
+
+
 
     private void ResetAttack ()
     {
