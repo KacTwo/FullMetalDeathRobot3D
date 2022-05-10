@@ -53,7 +53,7 @@ public class WaveSpawner : MonoBehaviour
 
 
 
-        if ( waveCountdown <= 0)
+        if ( waveCountdown <=0 ) //kiedy osi¹gnie zero zacznie spawnowaæ
         {
             if (state != SpawnState.SPAWNING)
             {
@@ -61,13 +61,14 @@ public class WaveSpawner : MonoBehaviour
                 StartCoroutine ( SpawnWave(waves[nextWave]) );
 
             }
-        else
+        else //odejmuje czas
+            // odejmuje bezkoñca
         {
             waveCountdown -= Time.deltaTime;
         }
 
         }
-
+        // nie szuka enemi co klatke
         bool EnemyisAlive()
         {
             searchCountdown -= Time.deltaTime;
@@ -76,9 +77,20 @@ public class WaveSpawner : MonoBehaviour
                 searchCountdown = 1f;
                 if (GameObject.FindGameObjectWithTag("Enemy") == null)
                 {
-                 return false;
+                    Debug.Log("search false");
+
+
+                   
+
+                    return false;
+
+
+                    //niema informacji o resecie timera 
+
                 }
             }
+            Debug.Log("search true");
+
             return true; 
         }
 

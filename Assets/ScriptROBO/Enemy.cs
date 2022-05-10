@@ -137,6 +137,7 @@ public class Enemy : MonoBehaviour
     }
     void Die ()
     {
+        Debug.Log("umar");
         Destroy(gameObject);
     }
 

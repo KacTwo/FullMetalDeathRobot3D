@@ -19,7 +19,7 @@ public class DmgTest : MonoBehaviour
         if (other.gameObject.tag == "Player")
         {
         PlayerHealth.DamagePlayer(dmg);
-        Debug.Log("DMG Taken");
+       // Debug.Log("DMG Taken");
         Destroy(gameObject);
         }
         else
