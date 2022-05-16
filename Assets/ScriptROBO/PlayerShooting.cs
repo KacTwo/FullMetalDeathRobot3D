@@ -8,7 +8,8 @@ public class PlayerShooting : MonoBehaviour
     public float damage = 10f;
     public float range = 100f;
     public Camera fpsCam;
-    public ParticleSystem MuzzleFlash;
+    public GameObject MuzzleFlash; //próbuje zrobiæ efekt strzelania z vfs które zrobi³em
+    //public ParticleSystem MuzzleFlash; 
     public GameObject ImpactEffect;
     public float impactforce = 30f;
     public float Firerate = 15f;
@@ -30,7 +31,8 @@ public class PlayerShooting : MonoBehaviour
 
 
 
-        MuzzleFlash.Play();
+        // MuzzleFlash.Play();
+        MuzzleFlash.SetActive(true);
 
         RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
@@ -50,5 +52,6 @@ public class PlayerShooting : MonoBehaviour
            GameObject ImpactGo = Instantiate(ImpactEffect, hit.point, Quaternion.LookRotation(hit.normal));
            Destroy(ImpactGo, 2f);
         }
+        MuzzleFlash.SetActive(false);
     }
 }
