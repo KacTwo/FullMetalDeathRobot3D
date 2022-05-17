@@ -7,6 +7,8 @@ public class SoundMenager : MonoBehaviour
 
     public AudioSource EffectsSource;
     public AudioSource MusicSource;
+    private float MusicVolume = 1f;
+    private float EffectsVolume = 1f;
 
     public static SoundMenager instance = null;
 
@@ -35,7 +37,26 @@ public class SoundMenager : MonoBehaviour
     {
         MusicSource.clip = clip;
         MusicSource.Play();
+        
     }
+
+     void Update() 
+    {
+        EffectsSource.volume = EffectsVolume;
+        MusicSource.volume = MusicVolume;
+
+    }
+
+    public void updateMvolume (float Mvolume )
+    {
+        MusicVolume = Mvolume;
+    }
+
+    public void updateEvolume (float Evolume )
+    {
+        EffectsVolume = Evolume;
+    }
+
 
 
 
