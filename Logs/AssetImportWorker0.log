@@ -1,166 +1,149 @@
 Using pre-set license
 Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19043.1706; Version 2009; 64bit' Language: 'en' Physical Memory: 16331 MB
+OS: 'Windows 10 Home; OS build 19043.1706; Version 2009; 64bit' Language: 'pl' Physical Memory: 16335 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity game\2020.2.7f1\Editor\Unity.exe
+E:\Silniki gier\unity\2020.2.7f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Unity game/UnityGames/FullMetalDeathRoobots/FullMetalDeathRobot3D
+E:/unityprojekt/FullMetalDeathRobot3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54366
-Successfully changed project path to: D:/Unity game/UnityGames/FullMetalDeathRoobots/FullMetalDeathRobot3D
-D:/Unity game/UnityGames/FullMetalDeathRoobots/FullMetalDeathRobot3D
+58156
+Successfully changed project path to: E:/unityprojekt/FullMetalDeathRobot3D
+E:/unityprojekt/FullMetalDeathRobot3D
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 54.96 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 53.99 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
-[Subsystems] Discovering subsystems at path D:/Unity game/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity game/UnityGames/FullMetalDeathRoobots/FullMetalDeathRobot3D/Assets
+[Subsystems] Discovering subsystems at path E:/Silniki gier/unity/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/unityprojekt/FullMetalDeathRobot3D/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon RX 580 Series (ID=0x67df)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 670 (ID=0x1189)
     Vendor:   
-    VRAM:     4075 MB
-    Driver:   30.0.13023.4001
+    VRAM:     2007 MB
+    Driver:   30.0.14.7212
 Initialize mono
-Mono path[0] = 'D:/Unity game/2020.2.7f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity game/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity game/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Mono path[0] = 'E:/Silniki gier/unity/2020.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Silniki gier/unity/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Silniki gier/unity/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56712
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity game/2020.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Unity game/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002158 seconds.
+Register platform support module: E:/Silniki gier/unity/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001261 seconds.
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 56.02 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 54.10 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.764 seconds
+- Completed reload, in  1.076 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001327 seconds.
+Registered in 0.000803 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 57.65 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 52.55 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.466 seconds
+- Completed reload, in  1.084 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 1.61 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 190.5 MB.
-System memory in use after: 190.6 MB.
+System memory in use before: 171.8 MB.
+System memory in use after: 171.9 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2550.
-Total: 3.133800 ms (FindLiveObjects: 0.316000 ms CreateObjectMapping: 0.203100 ms MarkObjects: 2.581100 ms  DeleteObjects: 0.032300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Enemy/New Material.mat
-  artifactKey: Guid(f5483726c1744ad4a964745a7cf0e712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/New Material.mat using Guid(f5483726c1744ad4a964745a7cf0e712) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b2cc2789e2ed4039b2de3a44c7ff98') in 0.449299 seconds
-  Import took 0.460254 seconds .
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2530.
+Total: 2.801200 ms (FindLiveObjects: 0.281400 ms CreateObjectMapping: 0.055100 ms MarkObjects: 2.218700 ms  DeleteObjects: 0.244300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.946227 seconds.
-  path: Assets/Enemy/ENEMI/mechrobot19.fbx
-  artifactKey: Guid(260c49ad54af85a43b19499b1bd046f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/mechrobot19.fbx using Guid(260c49ad54af85a43b19499b1bd046f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cec40cda27be6019368e080fb0fa98') in 0.356487 seconds
-  Import took 0.361951 seconds .
+  path: Assets/Scenes/MenuStuff/Menu.asset
+  artifactKey: Guid(5ad3e5432aede074a8e5aa53f23f1f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuStuff/Menu.asset using Guid(5ad3e5432aede074a8e5aa53f23f1f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed64e31fd564635e94c21c5180ba744') in 0.081186 seconds
+  Import took 0.098100 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/Enemy/ENEMI/New Material.mat
-  artifactKey: Guid(050de58a27e148142b790fe1d4640634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/New Material.mat using Guid(050de58a27e148142b790fe1d4640634) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bde0c878360c02f199fc73e94f2bc2e') in 0.036597 seconds
-  Import took 0.041489 seconds .
+  Time since last request: 240.066911 seconds.
+  path: Assets/Desert Buildings/Models
+  artifactKey: Guid(b4fe73c0f0466c540bdccd613cf53d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert Buildings/Models using Guid(b4fe73c0f0466c540bdccd613cf53d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3fd4629f04c72993464ebfce85d0585') in 0.005216 seconds
+  Import took 0.022605 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.817213 seconds.
-  path: Assets/Enemy/ENEMI/MechSigeBraker.fbx
-  artifactKey: Guid(1bcdf24b7d4d9af49adac317b4d9a9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/MechSigeBraker.fbx using Guid(1bcdf24b7d4d9af49adac317b4d9a9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a31fd43bd6eee47ce62563c0cb5e1c') in 0.166737 seconds
-  Import took 0.172704 seconds .
+  Time since last request: 0.085309 seconds.
+  path: Assets/Desert Buildings/Models/Desert_Building_V1.fbx
+  artifactKey: Guid(580c90969851672439cff9df3cdd337a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert Buildings/Models/Desert_Building_V1.fbx using Guid(580c90969851672439cff9df3cdd337a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed89a8814de87c152a7c5db3a2dda715') in 0.270684 seconds
+  Import took 0.274277 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 29.345261 seconds.
-  path: Assets/Enemy/ENEMI/MechSigeBraker.fbx
-  artifactKey: Guid(1bcdf24b7d4d9af49adac317b4d9a9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/MechSigeBraker.fbx using Guid(1bcdf24b7d4d9af49adac317b4d9a9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c015eb7225359930531259fa4e97b2') in 0.186514 seconds
-  Import took 0.193359 seconds .
+  Time since last request: 0.000186 seconds.
+  path: Assets/Desert Buildings/Models/Desert_Building_V2.fbx
+  artifactKey: Guid(504da36907c9cff48af2c073b502e26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert Buildings/Models/Desert_Building_V2.fbx using Guid(504da36907c9cff48af2c073b502e26b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbddb511a71acaad5929815cfc87bb44') in 0.017756 seconds
+  Import took 0.053619 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Enemy/ENEMI/mechtexsigebraker1.png
-  artifactKey: Guid(ed37073dd52f37b4c8eed9e3f4ae0ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/mechtexsigebraker1.png using Guid(ed37073dd52f37b4c8eed9e3f4ae0ee7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5d235892466eb38336efe3db46ecc4d') in 0.034511 seconds
-  Import took 0.050283 seconds .
+  Time since last request: 0.000192 seconds.
+  path: Assets/Desert Buildings/Models/Desert_Building_V5.fbx
+  artifactKey: Guid(c2de079163f323b4fa8ee3c423f48986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert Buildings/Models/Desert_Building_V5.fbx using Guid(c2de079163f323b4fa8ee3c423f48986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3214e80ad94a54ebc9533f816444d4e') in 0.016500 seconds
+  Import took 0.154774 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 20.745372 seconds.
-  path: Assets/Enemy/ENEMI/MechSigeBraker.fbx
-  artifactKey: Guid(1bcdf24b7d4d9af49adac317b4d9a9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/MechSigeBraker.fbx using Guid(1bcdf24b7d4d9af49adac317b4d9a9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20c017159738aa5c664d542134cf2005') in 0.176466 seconds
-  Import took 0.182000 seconds .
+  Time since last request: 0.000212 seconds.
+  path: Assets/Desert Buildings/Models/Desert_Building_V3.fbx
+  artifactKey: Guid(47eef5e0f202f2040a9e9db524a58c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert Buildings/Models/Desert_Building_V3.fbx using Guid(47eef5e0f202f2040a9e9db524a58c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02325ee78ffaa4e90e765ab6fbf5f0f7') in 0.016245 seconds
+  Import took 0.063096 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.537284 seconds.
-  path: Assets/Enemy/ENEMI/MilitiaBone1.fbx
-  artifactKey: Guid(d58ef5042f8190048b678aa3ce696081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/MilitiaBone1.fbx using Guid(d58ef5042f8190048b678aa3ce696081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe8d8c52ad77d13c34ad3e3a12445a9') in 0.012278 seconds
-  Import took 0.018678 seconds .
+  Time since last request: 0.000202 seconds.
+  path: Assets/Desert Buildings/Models/Desert_Building_V4.fbx
+  artifactKey: Guid(9ec92fc72f132874cb88a8aa45f32a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert Buildings/Models/Desert_Building_V4.fbx using Guid(9ec92fc72f132874cb88a8aa45f32a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be720f50464c32709ca4cc86088e196') in 0.016681 seconds
+  Import took 0.020125 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002833 seconds.
-  path: Assets/Enemy/ENEMI/MilitiaBone1.fbx
-  artifactKey: Guid(d58ef5042f8190048b678aa3ce696081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/MilitiaBone1.fbx using Guid(d58ef5042f8190048b678aa3ce696081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe8d8c52ad77d13c34ad3e3a12445a9') in 0.021833 seconds
-  Import took 0.028742 seconds .
+  Time since last request: 9.295082 seconds.
+  path: Assets/Desert Buildings/ShowSettings.lighting
+  artifactKey: Guid(bc4c329ea2f0b5e4795d81e812cad282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert Buildings/ShowSettings.lighting using Guid(bc4c329ea2f0b5e4795d81e812cad282) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'f6a68fa00b8cbbe1ad8f896e9f0c0e19') in 0.007516 seconds
+  Import took 0.011741 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 36.448353 seconds.
-  path: Assets/Enemy/ENEMI/MilitiaBone2.fbx
-  artifactKey: Guid(8cf1a3e00d6e01c4eb2ccfc74fc3fd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/MilitiaBone2.fbx using Guid(8cf1a3e00d6e01c4eb2ccfc74fc3fd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23ee15319370417e709e16df1f9e9d35') in 0.068622 seconds
-  Import took 0.072938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.142612 seconds.
-  path: Assets/Enemy/ENEMI/MilitiaBone2.fbx
-  artifactKey: Guid(8cf1a3e00d6e01c4eb2ccfc74fc3fd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/MilitiaBone2.fbx using Guid(8cf1a3e00d6e01c4eb2ccfc74fc3fd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd439767087b8f48d26a900622374225e') in 0.050876 seconds
-  Import took 0.061339 seconds .
+  Time since last request: 0.038131 seconds.
+  path: Assets/Desert Buildings/ShowSettings.lighting
+  artifactKey: Guid(bc4c329ea2f0b5e4795d81e812cad282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert Buildings/ShowSettings.lighting using Guid(bc4c329ea2f0b5e4795d81e812cad282) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'f6a68fa00b8cbbe1ad8f896e9f0c0e19') in 0.002724 seconds
+  Import took 0.006515 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
