@@ -13,7 +13,7 @@ public class PickUpItem : MonoBehaviour
     
 
 
-    protected virtual void OnTriggerEnter2D(Collider other)
+    protected virtual void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player")) // niszczy obiekt
         {

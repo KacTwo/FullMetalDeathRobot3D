@@ -15,11 +15,11 @@ D:/Unity game/UnityGames/FullMetalDeathRoobots/FullMetalDeathRobot3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51375
+57526
 Successfully changed project path to: D:/Unity game/UnityGames/FullMetalDeathRoobots/FullMetalDeathRobot3D
 D:/Unity game/UnityGames/FullMetalDeathRoobots/FullMetalDeathRobot3D
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 50.93 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 58.68 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path D:/Unity game/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,580 +35,211 @@ Initialize mono
 Mono path[0] = 'D:/Unity game/2020.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity game/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity game/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity game/2020.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity game/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002409 seconds.
+Registered in 0.136725 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 48.97 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 54.93 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.340 seconds
+- Completed reload, in  3.724 seconds
 Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.001050 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 57.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.222 seconds
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2076 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 190.7 MB.
-System memory in use after: 190.8 MB.
-
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2550.
-Total: 3.260500 ms (FindLiveObjects: 0.333300 ms CreateObjectMapping: 0.201500 ms MarkObjects: 2.662300 ms  DeleteObjects: 0.062300 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/ScriptROBO/CameraBoB.cs
-  artifactKey: Guid(1f6b959da532f5e4bb6906442e651782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/CameraBoB.cs using Guid(1f6b959da532f5e4bb6906442e651782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d35096ed1d1a13d4e350c54b9dc223e') in 0.040701 seconds
-  Import took 0.077802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.293389 seconds.
-  path: Assets/ScriptROBO/scriptsStare
-  artifactKey: Guid(52819252a3aaef9489791b716bdd7c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare using Guid(52819252a3aaef9489791b716bdd7c7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c5bfcb4750cd622582c33bf676f034') in 0.011181 seconds
-  Import took 0.034098 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 175.551450 seconds.
-  path: Assets/ScriptROBO/scriptsStare/PotionGreen.cs
-  artifactKey: Guid(6af14e0565e656a469b9fea8c1ced062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/PotionGreen.cs using Guid(6af14e0565e656a469b9fea8c1ced062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2b104283aba5044090fb5ebb9a0599') in 0.010666 seconds
-  Import took 0.037358 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.561633 seconds.
-  path: Assets/ScriptROBO/scriptsStare/PickUpItem.cs
-  artifactKey: Guid(eb2e6cfff6bed114c8e6a5f6d93de7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/PickUpItem.cs using Guid(eb2e6cfff6bed114c8e6a5f6d93de7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0108c7a7e8601491c737e2a33052abc0') in 0.009301 seconds
-  Import took 0.015318 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002860 seconds.
-  path: Assets/ScriptROBO/scriptsStare/PickUpItem.cs
-  artifactKey: Guid(eb2e6cfff6bed114c8e6a5f6d93de7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/PickUpItem.cs using Guid(eb2e6cfff6bed114c8e6a5f6d93de7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0108c7a7e8601491c737e2a33052abc0') in 0.004140 seconds
-  Import took 0.010690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.867782 seconds.
-  path: Assets/ScriptROBO/scriptsStare/PotionYellow.cs
-  artifactKey: Guid(ccb60210a85e2e84e99d39f53c2d5cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/PotionYellow.cs using Guid(ccb60210a85e2e84e99d39f53c2d5cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c9be17290643070caa8038f4ee867f') in 0.008463 seconds
-  Import took 0.030755 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.698351 seconds.
-  path: Assets/ScriptROBO/scriptsStare/ScoreaMnager.cs
-  artifactKey: Guid(2addf2810514b8f47ad41551efa66f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/ScoreaMnager.cs using Guid(2addf2810514b8f47ad41551efa66f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba02a6d78255aab2b763387d855b9b4') in 0.009830 seconds
-  Import took 0.019604 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003459 seconds.
-  path: Assets/ScriptROBO/scriptsStare/ScoreaMnager.cs
-  artifactKey: Guid(2addf2810514b8f47ad41551efa66f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/ScoreaMnager.cs using Guid(2addf2810514b8f47ad41551efa66f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dba02a6d78255aab2b763387d855b9b4') in 0.003820 seconds
-  Import took 0.008705 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.471276 seconds.
-  path: Assets/ScriptROBO/scriptsStare/SoundManager_script.cs
-  artifactKey: Guid(1375d48dcbe28114b98c51c23a835037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/SoundManager_script.cs using Guid(1375d48dcbe28114b98c51c23a835037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4dd7cbfd46ad60f645b8e7f4c923506') in 0.007763 seconds
-  Import took 0.020408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000978 seconds.
-  path: Assets/ScriptROBO/scriptsStare/SoundManager_script.cs
-  artifactKey: Guid(1375d48dcbe28114b98c51c23a835037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/SoundManager_script.cs using Guid(1375d48dcbe28114b98c51c23a835037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4dd7cbfd46ad60f645b8e7f4c923506') in 0.004277 seconds
-  Import took 0.009216 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.715988 seconds.
-  path: Assets/ScriptROBO/scriptsStare/GameManager.cs
-  artifactKey: Guid(e5877642428f6724b890a804cb720b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/GameManager.cs using Guid(e5877642428f6724b890a804cb720b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ae9716843b2e01cb573c87fbd7d5a3') in 0.007470 seconds
-  Import took 0.024429 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000581 seconds.
-  path: Assets/ScriptROBO/scriptsStare/GameManager.cs
-  artifactKey: Guid(e5877642428f6724b890a804cb720b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/GameManager.cs using Guid(e5877642428f6724b890a804cb720b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29ae9716843b2e01cb573c87fbd7d5a3') in 0.002454 seconds
-  Import took 0.007195 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001087 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.221 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2013 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 185.9 MB.
-System memory in use after: 186.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2562.
-Total: 3.480400 ms (FindLiveObjects: 0.510700 ms CreateObjectMapping: 0.232800 ms MarkObjects: 2.690000 ms  DeleteObjects: 0.045400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 3323.348840 seconds.
-  path: Assets/ScriptROBO/scriptsStare/GameManager.cs
-  artifactKey: Guid(e5877642428f6724b890a804cb720b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/GameManager.cs using Guid(e5877642428f6724b890a804cb720b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9369e8941961c341f1271e0a32128410') in 0.008098 seconds
-  Import took 0.058477 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.885561 seconds.
-  path: Assets/ScriptROBO/scriptsStare/GameManager.cs
-  artifactKey: Guid(e5877642428f6724b890a804cb720b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/GameManager.cs using Guid(e5877642428f6724b890a804cb720b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9369e8941961c341f1271e0a32128410') in 0.003267 seconds
-  Import took 0.011404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 282.366634 seconds.
-  path: Assets/ScriptROBO/scriptsStare/Sound.cs
-  artifactKey: Guid(19d36425300d87f4da875e834db7d02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/Sound.cs using Guid(19d36425300d87f4da875e834db7d02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f892fc0934a40b5411915cef5b4bcb45') in 0.009419 seconds
-  Import took 0.034026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 37.266522 seconds.
-  path: Assets/ScriptROBO/scriptsStare/CountDownTimer.cs
-  artifactKey: Guid(501a5a5fd1bebb541a6333a950f3be3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/CountDownTimer.cs using Guid(501a5a5fd1bebb541a6333a950f3be3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c51730b1bb3ed0615570bb6032d4a813') in 0.009062 seconds
-  Import took 0.030097 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 53.255888 seconds.
-  path: Assets/ScriptROBO/scriptsStare/CountDownTimer.cs
-  artifactKey: Guid(501a5a5fd1bebb541a6333a950f3be3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/CountDownTimer.cs using Guid(501a5a5fd1bebb541a6333a950f3be3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d8cd60db4492bbe94dbe8985310c30') in 0.034981 seconds
-  Import took 0.054110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 173.398490 seconds.
-  path: Assets/ScriptROBO/scriptsStare/GameManager.cs
-  artifactKey: Guid(e5877642428f6724b890a804cb720b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/GameManager.cs using Guid(e5877642428f6724b890a804cb720b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd98ba9a8150c6e04344e7ece229dbe6') in 0.002252 seconds
-  Import took 0.026845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 215.399010 seconds.
-  path: Assets/ScriptROBO/scriptsStare/GameManager.cs
-  artifactKey: Guid(e5877642428f6724b890a804cb720b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/GameManager.cs using Guid(e5877642428f6724b890a804cb720b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31181f258cd94fc8536194d50477f060') in 0.006230 seconds
-  Import took 0.076620 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001222 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.124 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 185.9 MB.
-System memory in use after: 186.0 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2564.
-Total: 3.169600 ms (FindLiveObjects: 0.458100 ms CreateObjectMapping: 0.296300 ms MarkObjects: 2.367800 ms  DeleteObjects: 0.046300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 422.081053 seconds.
-  path: Assets/ScriptROBO/scriptsStare/PickUpItem.cs
-  artifactKey: Guid(eb2e6cfff6bed114c8e6a5f6d93de7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/PickUpItem.cs using Guid(eb2e6cfff6bed114c8e6a5f6d93de7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '148044dd2860c22064e96902d468beb8') in 0.016599 seconds
-  Import took 0.031660 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 240.763430 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b86d50afb34315f2f49a23a131c6f7cc') in 0.025712 seconds
-  Import took 0.049822 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001150 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.185 seconds
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.1 MB.
-System memory in use after: 186.2 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2567.
-Total: 3.256100 ms (FindLiveObjects: 0.369300 ms CreateObjectMapping: 0.207700 ms MarkObjects: 2.638900 ms  DeleteObjects: 0.039000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 129.914689 seconds.
-  path: Assets/ScriptROBO/scriptsStare/Coin50.cs
-  artifactKey: Guid(16b59bd22d2f349478fb0a96432676e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/Coin50.cs using Guid(16b59bd22d2f349478fb0a96432676e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0540176739e52a6710703436ca1eabd9') in 0.012446 seconds
-  Import took 0.034209 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001177 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.287 seconds
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.1 MB.
-System memory in use after: 186.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2570.
-Total: 2.663600 ms (FindLiveObjects: 0.267400 ms CreateObjectMapping: 0.121400 ms MarkObjects: 2.257600 ms  DeleteObjects: 0.015900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001058 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.115 seconds
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Refreshing native plugins compatible for Editor in 0.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.0 MB.
-System memory in use after: 186.1 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2573.
-Total: 3.194700 ms (FindLiveObjects: 0.266600 ms CreateObjectMapping: 0.152600 ms MarkObjects: 2.729500 ms  DeleteObjects: 0.045200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001102 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.83 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.115 seconds
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.1 MB.
-System memory in use after: 186.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2576.
-Total: 5.929600 ms (FindLiveObjects: 1.179400 ms CreateObjectMapping: 0.392600 ms MarkObjects: 4.287700 ms  DeleteObjects: 0.066900 ms)
-
-========================================================================
-Received Prepare
 Registering precompiled user dll's ...
 Registered in 0.001063 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 55.24 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.119 seconds
+- Completed reload, in  1.470 seconds
 Platform modules already initialized, skipping
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.1 MB.
-System memory in use after: 186.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2579.
-Total: 2.884000 ms (FindLiveObjects: 0.349800 ms CreateObjectMapping: 0.193400 ms MarkObjects: 2.320600 ms  DeleteObjects: 0.019000 ms)
-
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001092 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.108 seconds
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
+Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 190.8 MB.
+System memory in use after: 190.9 MB.
 
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.1 MB.
-System memory in use after: 186.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2582.
-Total: 2.267800 ms (FindLiveObjects: 0.219900 ms CreateObjectMapping: 0.082700 ms MarkObjects: 1.947700 ms  DeleteObjects: 0.016700 ms)
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2558.
+Total: 2.911700 ms (FindLiveObjects: 0.294400 ms CreateObjectMapping: 0.257400 ms MarkObjects: 2.303700 ms  DeleteObjects: 0.055200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 468.433435 seconds.
-  path: Assets/ScriptROBO/scriptsStare/PotionGreen.cs
-  artifactKey: Guid(6af14e0565e656a469b9fea8c1ced062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/PotionGreen.cs using Guid(6af14e0565e656a469b9fea8c1ced062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90afaf0355a82ee7c82d666fa120d23b') in 0.007700 seconds
-  Import took 0.031146 seconds .
+  path: Assets/Enemy/ENEMI/MechSigeBraker.fbx
+  artifactKey: Guid(1bcdf24b7d4d9af49adac317b4d9a9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/MechSigeBraker.fbx using Guid(1bcdf24b7d4d9af49adac317b4d9a9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0addafb823b05b17fbd768ac1ff4a6cc') in 5.520302 seconds
+  Import took 6.258753 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 15.145915 seconds.
-  path: Assets/ScriptROBO/scriptsStare/PickUpItem.cs
-  artifactKey: Guid(eb2e6cfff6bed114c8e6a5f6d93de7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/PickUpItem.cs using Guid(eb2e6cfff6bed114c8e6a5f6d93de7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76177c26afcba23750ce8255ecd91bb8') in 0.003128 seconds
-  Import took 0.021563 seconds .
+  Time since last request: 4.924513 seconds.
+  path: Assets/Enemy/ENEMI/MechSigeBraker.fbx
+  artifactKey: Guid(1bcdf24b7d4d9af49adac317b4d9a9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/MechSigeBraker.fbx using Guid(1bcdf24b7d4d9af49adac317b4d9a9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0addafb823b05b17fbd768ac1ff4a6cc') in 0.227046 seconds
+  Import took 0.234529 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 22.401349 seconds.
-  path: Assets/ScriptROBO/scriptsStare/ScoreaMnager.cs
-  artifactKey: Guid(2addf2810514b8f47ad41551efa66f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/scriptsStare/ScoreaMnager.cs using Guid(2addf2810514b8f47ad41551efa66f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9becb9ad26cdab6ca7a99392cd2094') in 0.014427 seconds
-  Import took 0.022473 seconds .
+  Time since last request: 48.845789 seconds.
+  path: Assets/Enemy/ENEMI/MechSigeBraker3.fbx
+  artifactKey: Guid(a7731f5802770804b8a200c395d4e66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/MechSigeBraker3.fbx using Guid(a7731f5802770804b8a200c395d4e66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840b2f712ea96e6f885261347294fde4') in 0.208038 seconds
+  Import took 0.234891 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001117 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.113 seconds
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
-
-Refreshing native plugins compatible for Editor in 0.51 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.1 MB.
-System memory in use after: 186.3 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2585.
-Total: 2.635900 ms (FindLiveObjects: 0.232200 ms CreateObjectMapping: 0.087800 ms MarkObjects: 2.295600 ms  DeleteObjects: 0.019000 ms)
+Received Import Request.
+  Time since last request: 89.854278 seconds.
+  path: Assets/Enemy/ENEMI/mechtexsigebrakertexture2.png
+  artifactKey: Guid(e2825e51a2e19084b8b0791af9e1f8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/mechtexsigebrakertexture2.png using Guid(e2825e51a2e19084b8b0791af9e1f8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dae9405169d52d565f5b45aef9868d7') in 0.062984 seconds
+  Import took 0.086446 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001051 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.50 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.127 seconds
-Platform modules already initialized, skipping
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
+Received Import Request.
+  Time since last request: 39.550609 seconds.
+  path: Assets/Enemy/ENEMI/SigeBrakerMaterial.mat
+  artifactKey: Guid(78808d88967f20946904c526198cde6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/SigeBrakerMaterial.mat using Guid(78808d88967f20946904c526198cde6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbddadb7d71019048d96868c4a069a88') in 0.060254 seconds
+  Import took 0.078679 seconds .
 
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
+========================================================================
+Received Import Request.
+  Time since last request: 1072.521883 seconds.
+  path: Assets/Enemy/ENEMI/Texturesige braker
+  artifactKey: Guid(782083f5cfb3328408d7e78af77caff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/Texturesige braker using Guid(782083f5cfb3328408d7e78af77caff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c206f9d773547e69443b7a7b239f3005') in 0.017501 seconds
+  Import took 0.050942 seconds .
 
-Script error: OnTriggerEnter2D
-This message parameter has to be of type: Collider2D
-The message will be ignored.
+========================================================================
+Received Import Request.
+  Time since last request: 0.063826 seconds.
+  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakeaomap.bmp
+  artifactKey: Guid(bbbfff2a9f7008a418d0abc5e09debbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakeaomap.bmp using Guid(bbbfff2a9f7008a418d0abc5e09debbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a749811da6134b4fefdb0beb7e1c0c9') in 0.022326 seconds
+  Import took 0.038503 seconds .
 
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 186.0 MB.
-System memory in use after: 186.2 MB.
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakersmoth.bmp
+  artifactKey: Guid(ccf7a0d2f304fba41839ae660f9d0012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakersmoth.bmp using Guid(ccf7a0d2f304fba41839ae660f9d0012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c253c2e9c9539351cdd944b42c4e7efc') in 0.042779 seconds
+  Import took 0.048900 seconds .
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2588.
-Total: 3.562900 ms (FindLiveObjects: 0.749900 ms CreateObjectMapping: 0.219200 ms MarkObjects: 2.576100 ms  DeleteObjects: 0.016600 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000117 seconds.
+  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal.bmp
+  artifactKey: Guid(31e4b29ae5a710a42970c5af770a7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal.bmp using Guid(31e4b29ae5a710a42970c5af770a7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3610c0a47930d492fc45327af50a13b7') in 0.031351 seconds
+  Import took 0.046493 seconds .
 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakeredge.bmp
+  artifactKey: Guid(04b40f01f52924a4e941a3495c193b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakeredge.bmp using Guid(04b40f01f52924a4e941a3495c193b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7332103b53cc2a1e3d54b9fa685b2c2') in 0.027366 seconds
+  Import took 0.036853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakerheight.bmp
+  artifactKey: Guid(3a42875a8791a8647a6c75e03c571dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakerheight.bmp using Guid(3a42875a8791a8647a6c75e03c571dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee5f5c88f37be488fffc165a72336da') in 0.033613 seconds
+  Import took 0.043265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakermetalic.bmp
+  artifactKey: Guid(153c8702d644ba044a85a95859a8714b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakermetalic.bmp using Guid(153c8702d644ba044a85a95859a8714b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5ee3bd3891385c38f29b27cf9d5e09') in 0.022367 seconds
+  Import took 0.068762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 49.933554 seconds.
+  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal.bmp
+  artifactKey: Guid(31e4b29ae5a710a42970c5af770a7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal.bmp using Guid(31e4b29ae5a710a42970c5af770a7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106c531d905dd2e9218edaf4cb56c2cd') in 0.049328 seconds
+  Import took 0.070298 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 473.937725 seconds.
+  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakerheight 1.bmp
+  artifactKey: Guid(dc5504b9436f57b438ebd6cb5518be71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakerheight 1.bmp using Guid(dc5504b9436f57b438ebd6cb5518be71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110b60dae58c6ca9f2fc2c64a9e99307') in 0.019791 seconds
+  Import took 0.046154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.917116 seconds.
+  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal 1.bmp
+  artifactKey: Guid(a363f89d157cd4e458141200ff586e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal 1.bmp using Guid(a363f89d157cd4e458141200ff586e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24aff30168ed736bd1856d3dc6cb868a') in 0.022370 seconds
+  Import took 0.048489 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.718998 seconds.
+  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal 1.bmp
+  artifactKey: Guid(a363f89d157cd4e458141200ff586e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal 1.bmp using Guid(a363f89d157cd4e458141200ff586e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abaa97f57375ca8a48d06c513bff2a9') in 0.030592 seconds
+  Import took 0.054121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.756390 seconds.
+  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal 2.bmp
+  artifactKey: Guid(0b194e2b606bf9f4f9807333bf5689c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal 2.bmp using Guid(0b194e2b606bf9f4f9807333bf5689c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9917021aa558d636a8c7e6bb5b59558') in 0.034709 seconds
+  Import took 0.042071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 262.454789 seconds.
+  path: Assets/Enemy/ENEMI/Militia1.fbx
+  artifactKey: Guid(492de1450d9b085448b90031a6fdc0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/Militia1.fbx using Guid(492de1450d9b085448b90031a6fdc0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd398ae39d33252d631520af5cff6c49') in 0.037222 seconds
+  Import took 0.089718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/Enemy/ENEMI/MilitiaBone2.fbx
+  artifactKey: Guid(8cf1a3e00d6e01c4eb2ccfc74fc3fd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/MilitiaBone2.fbx using Guid(8cf1a3e00d6e01c4eb2ccfc74fc3fd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09c2fcf8ff0ddb8544a68f1b6bd7deb') in 0.108189 seconds
+  Import took 0.126288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.891234 seconds.
+  path: Assets/Enemy/ENEMI/MechSigeBraker3.prefab
+  artifactKey: Guid(b06c4e890c4ecf044a6f760aee5b0290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/MechSigeBraker3.prefab using Guid(b06c4e890c4ecf044a6f760aee5b0290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee90977298ba06c52056852e688b4d26') in 0.040421 seconds
+  Import took 0.054879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013499 seconds.
+  path: Assets/Enemy/ENEMI/MechSigeBraker3.prefab
+  artifactKey: Guid(b06c4e890c4ecf044a6f760aee5b0290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/MechSigeBraker3.prefab using Guid(b06c4e890c4ecf044a6f760aee5b0290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee90977298ba06c52056852e688b4d26') in 0.027593 seconds
+  Import took 0.036287 seconds .
+
