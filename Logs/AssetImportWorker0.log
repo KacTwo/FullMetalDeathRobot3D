@@ -15,11 +15,11 @@ D:/Unity game/UnityGames/FullMetalDeathRoobots/FullMetalDeathRobot3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57526
+50124
 Successfully changed project path to: D:/Unity game/UnityGames/FullMetalDeathRoobots/FullMetalDeathRobot3D
 D:/Unity game/UnityGames/FullMetalDeathRoobots/FullMetalDeathRobot3D
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 58.68 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 68.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path D:/Unity game/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,211 +35,260 @@ Initialize mono
 Mono path[0] = 'D:/Unity game/2020.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity game/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity game/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56384
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity game/2020.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity game/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.136725 seconds.
+Registered in 0.002329 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 54.93 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 71.88 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.724 seconds
+- Completed reload, in  2.960 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001063 seconds.
+Registered in 0.001135 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 55.24 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 55.83 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.470 seconds
+- Completed reload, in  1.371 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 2.18 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2084 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 190.8 MB.
-System memory in use after: 190.9 MB.
+System memory in use before: 191.0 MB.
+System memory in use after: 191.1 MB.
 
 Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2558.
-Total: 2.911700 ms (FindLiveObjects: 0.294400 ms CreateObjectMapping: 0.257400 ms MarkObjects: 2.303700 ms  DeleteObjects: 0.055200 ms)
+Total: 3.122100 ms (FindLiveObjects: 0.446400 ms CreateObjectMapping: 0.228600 ms MarkObjects: 2.420100 ms  DeleteObjects: 0.025600 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Enemy/ENEMI/MechSigeBraker.fbx
-  artifactKey: Guid(1bcdf24b7d4d9af49adac317b4d9a9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/MechSigeBraker.fbx using Guid(1bcdf24b7d4d9af49adac317b4d9a9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0addafb823b05b17fbd768ac1ff4a6cc') in 5.520302 seconds
-  Import took 6.258753 seconds .
+  path: Assets/Enemy/ENEMI/pipie gun1.fbx
+  artifactKey: Guid(7771af5410abed5448350d4abb0329f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/pipie gun1.fbx using Guid(7771af5410abed5448350d4abb0329f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4341a9f786add4330ec063cd83cb399b') in 0.338243 seconds
+  Import took 0.370582 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.924513 seconds.
-  path: Assets/Enemy/ENEMI/MechSigeBraker.fbx
-  artifactKey: Guid(1bcdf24b7d4d9af49adac317b4d9a9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/MechSigeBraker.fbx using Guid(1bcdf24b7d4d9af49adac317b4d9a9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0addafb823b05b17fbd768ac1ff4a6cc') in 0.227046 seconds
-  Import took 0.234529 seconds .
+  Time since last request: 3.440158 seconds.
+  path: Assets/Enemy/ENEMI/Kabina3.fbx
+  artifactKey: Guid(dcffbff5cbe7d2a4f851daf4c7f22c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/Kabina3.fbx using Guid(dcffbff5cbe7d2a4f851daf4c7f22c74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7bb01b52213db5114ebfe6080b4328') in 0.066682 seconds
+  Import took 0.078597 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002722 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.819 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.5 MB.
+System memory in use after: 189.6 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2604.
+Total: 3.847700 ms (FindLiveObjects: 0.295500 ms CreateObjectMapping: 0.182500 ms MarkObjects: 3.342800 ms  DeleteObjects: 0.025600 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.845789 seconds.
-  path: Assets/Enemy/ENEMI/MechSigeBraker3.fbx
-  artifactKey: Guid(a7731f5802770804b8a200c395d4e66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/MechSigeBraker3.fbx using Guid(a7731f5802770804b8a200c395d4e66f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840b2f712ea96e6f885261347294fde4') in 0.208038 seconds
-  Import took 0.234891 seconds .
+  Time since last request: 435.896295 seconds.
+  path: Assets/Scenes/SampleScene
+  artifactKey: Guid(c2bccf277032f814dbeb44087ddbe454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene using Guid(c2bccf277032f814dbeb44087ddbe454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f31c659496bc3ee5b9e9d9c76c647b') in 0.021056 seconds
+  Import took 0.043794 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 89.854278 seconds.
-  path: Assets/Enemy/ENEMI/mechtexsigebrakertexture2.png
-  artifactKey: Guid(e2825e51a2e19084b8b0791af9e1f8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/mechtexsigebrakertexture2.png using Guid(e2825e51a2e19084b8b0791af9e1f8c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dae9405169d52d565f5b45aef9868d7') in 0.062984 seconds
-  Import took 0.086446 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.550609 seconds.
-  path: Assets/Enemy/ENEMI/SigeBrakerMaterial.mat
-  artifactKey: Guid(78808d88967f20946904c526198cde6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/SigeBrakerMaterial.mat using Guid(78808d88967f20946904c526198cde6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbddadb7d71019048d96868c4a069a88') in 0.060254 seconds
-  Import took 0.078679 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1072.521883 seconds.
-  path: Assets/Enemy/ENEMI/Texturesige braker
-  artifactKey: Guid(782083f5cfb3328408d7e78af77caff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/Texturesige braker using Guid(782083f5cfb3328408d7e78af77caff2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c206f9d773547e69443b7a7b239f3005') in 0.017501 seconds
-  Import took 0.050942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.063826 seconds.
-  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakeaomap.bmp
-  artifactKey: Guid(bbbfff2a9f7008a418d0abc5e09debbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakeaomap.bmp using Guid(bbbfff2a9f7008a418d0abc5e09debbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a749811da6134b4fefdb0beb7e1c0c9') in 0.022326 seconds
-  Import took 0.038503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakersmoth.bmp
-  artifactKey: Guid(ccf7a0d2f304fba41839ae660f9d0012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakersmoth.bmp using Guid(ccf7a0d2f304fba41839ae660f9d0012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c253c2e9c9539351cdd944b42c4e7efc') in 0.042779 seconds
-  Import took 0.048900 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal.bmp
-  artifactKey: Guid(31e4b29ae5a710a42970c5af770a7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal.bmp using Guid(31e4b29ae5a710a42970c5af770a7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3610c0a47930d492fc45327af50a13b7') in 0.031351 seconds
-  Import took 0.046493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakeredge.bmp
-  artifactKey: Guid(04b40f01f52924a4e941a3495c193b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakeredge.bmp using Guid(04b40f01f52924a4e941a3495c193b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7332103b53cc2a1e3d54b9fa685b2c2') in 0.027366 seconds
-  Import took 0.036853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakerheight.bmp
-  artifactKey: Guid(3a42875a8791a8647a6c75e03c571dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakerheight.bmp using Guid(3a42875a8791a8647a6c75e03c571dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee5f5c88f37be488fffc165a72336da') in 0.033613 seconds
-  Import took 0.043265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakermetalic.bmp
-  artifactKey: Guid(153c8702d644ba044a85a95859a8714b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakermetalic.bmp using Guid(153c8702d644ba044a85a95859a8714b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf5ee3bd3891385c38f29b27cf9d5e09') in 0.022367 seconds
-  Import took 0.068762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 49.933554 seconds.
-  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal.bmp
-  artifactKey: Guid(31e4b29ae5a710a42970c5af770a7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal.bmp using Guid(31e4b29ae5a710a42970c5af770a7ff3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '106c531d905dd2e9218edaf4cb56c2cd') in 0.049328 seconds
-  Import took 0.070298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 473.937725 seconds.
-  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakerheight 1.bmp
-  artifactKey: Guid(dc5504b9436f57b438ebd6cb5518be71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakerheight 1.bmp using Guid(dc5504b9436f57b438ebd6cb5518be71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '110b60dae58c6ca9f2fc2c64a9e99307') in 0.019791 seconds
-  Import took 0.046154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 71.917116 seconds.
-  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal 1.bmp
-  artifactKey: Guid(a363f89d157cd4e458141200ff586e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal 1.bmp using Guid(a363f89d157cd4e458141200ff586e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24aff30168ed736bd1856d3dc6cb868a') in 0.022370 seconds
-  Import took 0.048489 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.718998 seconds.
-  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal 1.bmp
-  artifactKey: Guid(a363f89d157cd4e458141200ff586e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal 1.bmp using Guid(a363f89d157cd4e458141200ff586e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3abaa97f57375ca8a48d06c513bff2a9') in 0.030592 seconds
-  Import took 0.054121 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 119.756390 seconds.
-  path: Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal 2.bmp
-  artifactKey: Guid(0b194e2b606bf9f4f9807333bf5689c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/Texturesige braker/sigebrakermormal 2.bmp using Guid(0b194e2b606bf9f4f9807333bf5689c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9917021aa558d636a8c7e6bb5b59558') in 0.034709 seconds
-  Import took 0.042071 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 262.454789 seconds.
-  path: Assets/Enemy/ENEMI/Militia1.fbx
-  artifactKey: Guid(492de1450d9b085448b90031a6fdc0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/Militia1.fbx using Guid(492de1450d9b085448b90031a6fdc0c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd398ae39d33252d631520af5cff6c49') in 0.037222 seconds
-  Import took 0.089718 seconds .
+  Time since last request: 0.077336 seconds.
+  path: Assets/Scenes/SampleScene/NavMesh-NavMesh 1.asset
+  artifactKey: Guid(eaf86e4c6ab7f724f8c10216b56c705a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/NavMesh-NavMesh 1.asset using Guid(eaf86e4c6ab7f724f8c10216b56c705a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bf2f945f75cd70711770c5a2d205e6') in 0.063750 seconds
+  Import took 0.085086 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000223 seconds.
-  path: Assets/Enemy/ENEMI/MilitiaBone2.fbx
-  artifactKey: Guid(8cf1a3e00d6e01c4eb2ccfc74fc3fd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/MilitiaBone2.fbx using Guid(8cf1a3e00d6e01c4eb2ccfc74fc3fd37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c09c2fcf8ff0ddb8544a68f1b6bd7deb') in 0.108189 seconds
-  Import took 0.126288 seconds .
+  path: Assets/Scenes/SampleScene/NavMesh-NavMesh.asset
+  artifactKey: Guid(d7815e4723d2e53409c888c0acc0487e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene/NavMesh-NavMesh.asset using Guid(d7815e4723d2e53409c888c0acc0487e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d58c3624860cea9843ef42094abdfaf') in 0.030185 seconds
+  Import took 0.060656 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.891234 seconds.
-  path: Assets/Enemy/ENEMI/MechSigeBraker3.prefab
-  artifactKey: Guid(b06c4e890c4ecf044a6f760aee5b0290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/MechSigeBraker3.prefab using Guid(b06c4e890c4ecf044a6f760aee5b0290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee90977298ba06c52056852e688b4d26') in 0.040421 seconds
-  Import took 0.054879 seconds .
+  Time since last request: 517.087038 seconds.
+  path: Assets/Materials/piasek-budowlany.jpg
+  artifactKey: Guid(45194c1f224ad564fae5479c34e55ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/piasek-budowlany.jpg using Guid(45194c1f224ad564fae5479c34e55ea3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fda9cf7df0648e57eda15b36649c35f2') in 0.092527 seconds
+  Import took 0.262419 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.013499 seconds.
-  path: Assets/Enemy/ENEMI/MechSigeBraker3.prefab
-  artifactKey: Guid(b06c4e890c4ecf044a6f760aee5b0290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/MechSigeBraker3.prefab using Guid(b06c4e890c4ecf044a6f760aee5b0290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee90977298ba06c52056852e688b4d26') in 0.027593 seconds
-  Import took 0.036287 seconds .
+  Time since last request: 800.347119 seconds.
+  path: Assets/Materials/Sand1
+  artifactKey: Guid(4b80988007fe2524aa58016b82942e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sand1 using Guid(4b80988007fe2524aa58016b82942e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec276391d8d1483c741ed551c0cef79') in 0.019718 seconds
+  Import took 0.079592 seconds .
 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Materials/Sand1/Sand1smothnes.bmp
+  artifactKey: Guid(d0785dcd9351a9c4e851b1bf6e38407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sand1/Sand1smothnes.bmp using Guid(d0785dcd9351a9c4e851b1bf6e38407d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a06ae850298cdf52d14ec893ad8eb35a') in 0.063070 seconds
+  Import took 0.077728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Materials/Sand1/Sand1abedo.bmp
+  artifactKey: Guid(d28bbda42c01e7a43a13fc253e750268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sand1/Sand1abedo.bmp using Guid(d28bbda42c01e7a43a13fc253e750268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd91865656133bbfce1d6e67ce02eee14') in 0.044678 seconds
+  Import took 0.056750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000211 seconds.
+  path: Assets/Materials/Sand1/piasek-budowlany.jpg
+  artifactKey: Guid(64c82c2a0f78a4c42a5b7bba6f6dc5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sand1/piasek-budowlany.jpg using Guid(64c82c2a0f78a4c42a5b7bba6f6dc5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4580fe8cec5a6ea054ec60fcdc543817') in 0.040519 seconds
+  Import took 0.056808 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Materials/Sand1/Sand1height.bmp
+  artifactKey: Guid(666fe19af777336459f03b0d9a3a9eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sand1/Sand1height.bmp using Guid(666fe19af777336459f03b0d9a3a9eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd582ebe43b9786b6c4723a199867733b') in 0.056940 seconds
+  Import took 0.099402 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Materials/Sand1/Sand1normal.bmp
+  artifactKey: Guid(f8d2307a7da046947ba1d200a395cf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sand1/Sand1normal.bmp using Guid(f8d2307a7da046947ba1d200a395cf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83f80c7853115972f93a316da84a28b6') in 0.091945 seconds
+  Import took 0.103203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 115.611816 seconds.
+  path: Assets/Materials/Sand1/Sand1normal.bmp
+  artifactKey: Guid(f8d2307a7da046947ba1d200a395cf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sand1/Sand1normal.bmp using Guid(f8d2307a7da046947ba1d200a395cf2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d0869545f63c1c80a555deb820456d9') in 0.072732 seconds
+  Import took 0.089765 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1477.519670 seconds.
+  path: Assets/Desert Buildings/BuldingPrefabs
+  artifactKey: Guid(da5d03f978a6b7440a5d3e4c111bac85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Desert Buildings/BuldingPrefabs using Guid(da5d03f978a6b7440a5d3e4c111bac85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fd4302893824fa467f483dc808f59a') in 0.010447 seconds
+  Import took 0.023086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 254.054839 seconds.
+  path: Assets/Player/FPSRigi.prefab
+  artifactKey: Guid(b0f4cc998ead2024cb3cc33aafb94378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player/FPSRigi.prefab using Guid(b0f4cc998ead2024cb3cc33aafb94378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c3898700a49ad3598f378d9e41a89e') in 0.156115 seconds
+  Import took 0.171960 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 32.135722 seconds.
+  path: Assets/ScriptROBO/scriptsStare/Coin50.cs
+  artifactKey: Guid(16b59bd22d2f349478fb0a96432676e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptROBO/scriptsStare/Coin50.cs using Guid(16b59bd22d2f349478fb0a96432676e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5bd287507d9eafb4d921fdac224b9c63') in 0.014669 seconds
+  Import took 0.120221 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001496 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.68 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.118 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.49 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2012 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 189.7 MB.
+System memory in use after: 189.8 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2614.
+Total: 3.522100 ms (FindLiveObjects: 0.308500 ms CreateObjectMapping: 0.100500 ms MarkObjects: 3.041700 ms  DeleteObjects: 0.069700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 268.807612 seconds.
+  path: Assets/ScriptROBO/scriptsStare/Coin50.cs
+  artifactKey: Guid(16b59bd22d2f349478fb0a96432676e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptROBO/scriptsStare/Coin50.cs using Guid(16b59bd22d2f349478fb0a96432676e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453cceb98b0f4528b3a8e33ca1c1afb9') in 0.010074 seconds
+  Import took 0.032285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 351.562423 seconds.
+  path: Assets/ScriptROBO/Health
+  artifactKey: Guid(f5b84ed0cbf2ae6488f4f8c68405c3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptROBO/Health using Guid(f5b84ed0cbf2ae6488f4f8c68405c3b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6a597c03941d7e286d6c20005e73fdd') in 0.008842 seconds
+  Import took 0.231455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.395330 seconds.
+  path: Assets/ScriptROBO/Health/HealthBar.cs
+  artifactKey: Guid(413e8aa7f13d5c24abaf9de4da7973d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptROBO/Health/HealthBar.cs using Guid(413e8aa7f13d5c24abaf9de4da7973d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2229752395003f7d91abcfaab7a761e') in 0.011341 seconds
+  Import took 0.016220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002045 seconds.
+  path: Assets/ScriptROBO/Health/HealthBar.cs
+  artifactKey: Guid(413e8aa7f13d5c24abaf9de4da7973d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ScriptROBO/Health/HealthBar.cs using Guid(413e8aa7f13d5c24abaf9de4da7973d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2229752395003f7d91abcfaab7a761e') in 0.023404 seconds
+  Import took 0.030359 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2991.431985 seconds.
+  path: Assets/Scenes/MenuStuff/_DesertKits64_Sample/FBX/DesertKits64_Sample.FBX
+  artifactKey: Guid(48dc4c6cddf48a943bf7251f1ba06c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MenuStuff/_DesertKits64_Sample/FBX/DesertKits64_Sample.FBX using Guid(48dc4c6cddf48a943bf7251f1ba06c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5871331779dd6fe4f2c5d76593642812') in 0.488902 seconds
+  Import took 0.519027 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
