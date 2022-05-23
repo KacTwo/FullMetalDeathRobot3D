@@ -446,6 +446,10 @@ PrefabInstance:
       propertyPath: fpsCam
       value: 
       objectReference: {fileID: 1312408802758919882}
+    - target: {fileID: 3533545688178446962, guid: 1abeab857fcf1534c93c0ac28ae0604d, type: 3}
+      propertyPath: ImpactEffect
+      value: 
+      objectReference: {fileID: 7375133753968269522, guid: 4b4e884d14b6ace46a2adbb8aae79eff, type: 3}
     - target: {fileID: 9052620129534869097, guid: 1abeab857fcf1534c93c0ac28ae0604d, type: 3}
       propertyPath: m_Name
       value: ArmorBark.L
@@ -598,6 +602,10 @@ PrefabInstance:
       propertyPath: fpsCam
       value: 
       objectReference: {fileID: 1312408802758919882}
+    - target: {fileID: 6193292866154023960, guid: aeaf00bba50fa0e4c9926387ec4738d9, type: 3}
+      propertyPath: ImpactEffect
+      value: 
+      objectReference: {fileID: 7375133753968269522, guid: 4b4e884d14b6ace46a2adbb8aae79eff, type: 3}
     - target: {fileID: 7095396155588108405, guid: aeaf00bba50fa0e4c9926387ec4738d9, type: 3}
       propertyPath: m_Name
       value: ArmorBark.R
