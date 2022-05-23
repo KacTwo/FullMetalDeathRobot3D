@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DmgTest : MonoBehaviour
+public class ParticleDMG : MonoBehaviour
 {
     PlayerHealth PlayerHealth;
     public int dmg = 10;

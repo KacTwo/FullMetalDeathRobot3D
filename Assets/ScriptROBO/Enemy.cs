@@ -15,6 +15,7 @@ public class Enemy : MonoBehaviour
     public Transform player;
     public LayerMask WhatIsGround, WhatIsPlayer;
     public GameObject projectile; 
+    public AudioClip enemyshoot;
 
     // Patroling
 
@@ -96,6 +97,7 @@ public class Enemy : MonoBehaviour
         {
 
             Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+            SoundMenager.instance.Play(enemyshoot);
 
             rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
             rb.AddForce(transform.up * 4f, ForceMode.Impulse);
