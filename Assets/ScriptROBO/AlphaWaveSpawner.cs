@@ -31,10 +31,10 @@ public class AlphaWaveSpawner : MonoBehaviour
     // Update is called once per frame
     
 
-    private IEnumerator spawnEnemy(float interval, GameObject enemy)
+     IEnumerator spawnEnemy(float interval, GameObject enemy)
     {
         yield return new WaitForSeconds(interval);
-        GameObject newEnemy = Instantiate(enemy, new Vector3(Random.Range(-5f, 5), Random.Range(-6f,6f), 0 ), Quaternion.identity);
+        GameObject newEnemy = Instantiate(enemy, transform.position, transform.rotation);
         StartCoroutine(spawnEnemy(interval, enemy));
 
     }
