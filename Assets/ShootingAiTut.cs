@@ -7,6 +7,7 @@ public class ShootingAiTut : MonoBehaviour
 
     public Transform player;
     public GameObject gun;
+    float coinValue = 0;
 
     //Stats
     public int health;
@@ -129,11 +130,13 @@ public class ShootingAiTut : MonoBehaviour
 
         if (health < 0){
             isDead = true;
+            GameObject.Find("InGameManager").GetComponent<GameManager>().pointScore += coinValue;
             Invoke("Destroyy", 2.8f);
         }
     }
     private void Destroyy()
     {
+
         Destroy(gameObject);
     }
 

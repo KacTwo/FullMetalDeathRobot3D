@@ -11,6 +11,8 @@ public class Enemy : MonoBehaviour
 
     // Varibles
 
+    public float gruntValue = 0;
+
     public NavMeshAgent agent;
     public Transform player;
     public LayerMask WhatIsGround, WhatIsPlayer;
@@ -134,6 +136,7 @@ public class Enemy : MonoBehaviour
         health -= amount;
         if (health <= 0f)
         {
+            GameObject.Find("InGameManager").GetComponent<GameManager>().pointScore += gruntValue;
             Die();
         }
     }

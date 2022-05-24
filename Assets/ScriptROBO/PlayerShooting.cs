@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerShooting : MonoBehaviour
 {
+
+    public GameObject GunCannon1;
    
     public float damage = 10f;
     public float range = 100f;
@@ -20,17 +22,21 @@ public class PlayerShooting : MonoBehaviour
 
         if(Input.GetButton("Fire1") && Time.time >= nextTimeToFire)
         {
+            GunCannon1.GetComponent<Animator>().Play("ShootCannon");
             SoundMenager.instance.Play(ShootSound);
             nextTimeToFire = Time.time + 1f / Firerate;
             Shoot();
+            GunCannon1.GetComponent<Animator>().Play("Idle");
         }
     }
     void Shoot ()
     {
 
-
-
+        // gracz strzela animacja
+       
+        
         MuzzleFlash.Play();
+        GunCannon1.GetComponent<Animator>().Play("Idle");
 
         RaycastHit hit;
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
@@ -50,5 +56,6 @@ public class PlayerShooting : MonoBehaviour
            GameObject ImpactGo = Instantiate(ImpactEffect, hit.point, Quaternion.LookRotation(hit.normal));
            Destroy(ImpactGo, 2f);
         }
+        
     }
 }
