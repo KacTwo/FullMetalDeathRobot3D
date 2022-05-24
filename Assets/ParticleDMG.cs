@@ -6,6 +6,8 @@ public class ParticleDMG : MonoBehaviour
 {
     PlayerHealth PlayerHealth;
     public int dmg = 10;
+    private float phealth = 1;
+
      void Start ()
     {
         
@@ -29,9 +31,21 @@ public class ParticleDMG : MonoBehaviour
 
     }
 
+    public void DestroyParticle(float amount) //niiedzia³a 
+    {
 
+        phealth -= amount;
+        if (phealth <= 0f)
+        {
+            dietwo();
+        }
+    }
 
-
+    void dietwo()   // nie printuje w konsoli :c
+    {
+        Destroy(gameObject);
+        Debug.Log("particle znniszczony");
+    }
 
 
 
