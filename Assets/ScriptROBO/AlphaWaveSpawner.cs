@@ -13,6 +13,9 @@ public class AlphaWaveSpawner : MonoBehaviour
     private float Enemy1Interval=3.5f;
     [SerializeField]
     private float Enemy2Interval=10f;
+    [SerializeField]
+    public ParticleSystem TeleportEfect;
+
 
 
 
@@ -36,6 +39,8 @@ public class AlphaWaveSpawner : MonoBehaviour
         yield return new WaitForSeconds(interval);
         GameObject newEnemy = Instantiate(enemy, transform.position, transform.rotation);
         StartCoroutine(spawnEnemy(interval, enemy));
+
+        TeleportEfect.Play();
 
     }
 

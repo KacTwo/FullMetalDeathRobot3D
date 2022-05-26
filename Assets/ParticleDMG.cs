@@ -31,9 +31,9 @@ public class ParticleDMG : MonoBehaviour
 
     }
 
-    public void DestroyParticle(float amount) //niiedzia³a 
+    public void DestroyParticle(float amount) //niiedzia³a //
     {
-
+        //czekaj dodanie taga enemy do tego me¿e zadzia³a
         phealth -= amount;
         if (phealth <= 0f)
         {

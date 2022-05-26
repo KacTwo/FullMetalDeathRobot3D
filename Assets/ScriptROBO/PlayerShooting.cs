@@ -42,11 +42,26 @@ public class PlayerShooting : MonoBehaviour
         if (Physics.Raycast(fpsCam.transform.position, fpsCam.transform.forward, out hit, range))
         {
 
+            /*
             Enemy Enemy = hit.transform.GetComponent<Enemy>();
             if (Enemy != null)
             {
                 Enemy.TakeDamage(damage);
             }
+            */
+
+
+
+            DIeICoinsy DIeICoinsy = hit.transform.GetComponent<DIeICoinsy>();
+            if (DIeICoinsy != null)
+            {
+                DIeICoinsy.TakeDamage(damage);
+            }
+
+
+
+
+
 
             if (hit.rigidbody != null)
             {

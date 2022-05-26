@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
 {
 
     // Statistics
-    public float health = 50f;
+    // float health = 50f; //
 
     // Varibles
 
@@ -130,7 +130,7 @@ public class Enemy : MonoBehaviour
             alreadyAttacked = false;
     }
 
-
+    /*
     public void TakeDamage (float amount)
     {
         health -= amount;
@@ -146,6 +146,6 @@ public class Enemy : MonoBehaviour
         Destroy(gameObject);
     }
 
-
+    */
 
 }

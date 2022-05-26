@@ -47,7 +47,11 @@ public class RigidbodyMovement : MonoBehaviour
     {
 
         xRot -= MouseInput.y * Sensitivity;
-        
+
+
+        xRot = Mathf.Clamp(xRot, -90f, 90f); //blokada  360?
+
+
         transform.Rotate(0f, MouseInput.x * Sensitivity, 0f);
 
         PlayerCamera.transform.localRotation = Quaternion.Euler(xRot, 0f, 0f);
