@@ -15,11 +15,11 @@ D:/Unity game/UnityGames/FullMetalDeathRoobots/FullMetalDeathRobot3D
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60780
+54299
 Successfully changed project path to: D:/Unity game/UnityGames/FullMetalDeathRoobots/FullMetalDeathRobot3D
 D:/Unity game/UnityGames/FullMetalDeathRoobots/FullMetalDeathRobot3D
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 55.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 96.07 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.7f1 (c53830e277f1)
 [Subsystems] Discovering subsystems at path D:/Unity game/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
@@ -35,1236 +35,156 @@ Initialize mono
 Mono path[0] = 'D:/Unity game/2020.2.7f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity game/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity game/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56528
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity game/2020.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Unity game/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003625 seconds.
+Registered in 0.002360 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 68.32 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 58.69 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.945 seconds
+- Completed reload, in  2.588 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001004 seconds.
+Registered in 0.001248 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.00 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 67.04 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.415 seconds
+- Completed reload, in  1.431 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2194 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 196.0 MB.
-System memory in use after: 196.1 MB.
+Unloading 2195 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 196.1 MB.
+System memory in use after: 196.3 MB.
 
-Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2673.
-Total: 3.191900 ms (FindLiveObjects: 0.552300 ms CreateObjectMapping: 0.137300 ms MarkObjects: 2.474700 ms  DeleteObjects: 0.026500 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/Enemies.prefab
-  artifactKey: Guid(cb381266174eab64693f19bfcd0fd44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies.prefab using Guid(cb381266174eab64693f19bfcd0fd44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a325320d53537ad3ef4747db434ca0') in 0.186063 seconds
-  Import took 0.191744 seconds .
+Unloading 11 unused Assets to reduce memory usage. Loaded Objects now: 2674.
+Total: 2.613300 ms (FindLiveObjects: 0.232500 ms CreateObjectMapping: 0.098000 ms MarkObjects: 2.254600 ms  DeleteObjects: 0.027200 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2742.073504 seconds.
-  path: Assets/Desert Buildings/Prefabs/DeserBuilding_1t.prefab
-  artifactKey: Guid(0f78135c3d93f284fbf458ff87910a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/DeserBuilding_1t.prefab using Guid(0f78135c3d93f284fbf458ff87910a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1484a4fdedd76376ab7a39ff6fac6dfa') in 0.012324 seconds
-  Import took 0.017959 seconds .
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(b8920b1c4b55c534bbfbede3f7eab96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(b8920b1c4b55c534bbfbede3f7eab96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5725b16fbb8faef1281edc5cd12cff') in 0.074249 seconds
+  Import took 0.079312 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.001453 seconds.
-  path: Assets/Desert Buildings/Prefabs/DeserBuilding_1t.prefab
-  artifactKey: Guid(0f78135c3d93f284fbf458ff87910a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/DeserBuilding_1t.prefab using Guid(0f78135c3d93f284fbf458ff87910a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1484a4fdedd76376ab7a39ff6fac6dfa') in 0.005080 seconds
-  Import took 0.010852 seconds .
+  Time since last request: 521.946331 seconds.
+  path: Assets/Materials/Sand1/NewBrush.brush
+  artifactKey: Guid(9d78dea857446ad44884d3942f022a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sand1/NewBrush.brush using Guid(9d78dea857446ad44884d3942f022a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c762245554fdd8775e6f73af85951acb') in 0.105521 seconds
+  Import took 0.110916 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 99.831555 seconds.
-  path: Assets/Desert Buildings/Prefabs/DeserBuilding_1t.prefab
-  artifactKey: Guid(0f78135c3d93f284fbf458ff87910a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/DeserBuilding_1t.prefab using Guid(0f78135c3d93f284fbf458ff87910a52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b67e92d82f20083f57fbc01981db1bd') in 0.063809 seconds
-  Import took 0.100741 seconds .
+  Time since last request: 0.026496 seconds.
+  path: Assets/Materials/Sand1/NewBrush.brush
+  artifactKey: Guid(9d78dea857446ad44884d3942f022a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sand1/NewBrush.brush using Guid(9d78dea857446ad44884d3942f022a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c762245554fdd8775e6f73af85951acb') in 0.032601 seconds
+  Import took 0.039664 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 114.916979 seconds.
-  path: Assets/Desert Buildings/Materials
-  artifactKey: Guid(7df3d96a96907974396d24fc5b4f786e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Materials using Guid(7df3d96a96907974396d24fc5b4f786e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff53cdabdb1f3b79bc264b6e71b60b05') in 0.011456 seconds
-  Import took 0.016853 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 108.552729 seconds.
-  path: Assets/Desert Buildings/Prefabs/DeserBuilding_1t 1.prefab
-  artifactKey: Guid(9bc0fd06fe53c974ab07216a561a5f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/DeserBuilding_1t 1.prefab using Guid(9bc0fd06fe53c974ab07216a561a5f8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7a3881b37f1fd7489e4cc702204886') in 0.039255 seconds
-  Import took 0.047547 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 268.967749 seconds.
-  path: Assets/Desert Buildings/Prefabs/Desert_Building_V1.prefab
-  artifactKey: Guid(36f3c19a7597eb94987d9f341e3010eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Desert_Building_V1.prefab using Guid(36f3c19a7597eb94987d9f341e3010eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '786a5ce8aaef0be6311668edc65f068a') in 0.048493 seconds
-  Import took 0.056887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Desert Buildings/Prefabs/domki.prefab
-  artifactKey: Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/domki.prefab using Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95e1b5ae53c3e7e3f9747b337387f1fe') in 0.115755 seconds
-  Import took 0.125778 seconds .
+  Time since last request: 608.576427 seconds.
+  path: Assets/Materials/Concreat 1.mat
+  artifactKey: Guid(04ddcb6218f9e43499bd4a0183caba4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Concreat 1.mat using Guid(04ddcb6218f9e43499bd4a0183caba4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f412d7482bdf4c7a596886ede00f20f') in 0.087768 seconds
+  Import took 0.102580 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000212 seconds.
-  path: Assets/Desert Buildings/Prefabs/Domki 2 1.prefab
-  artifactKey: Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Domki 2 1.prefab using Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21ba4c3719c79cfe9620628ebb8f25a6') in 0.125587 seconds
-  Import took 0.135260 seconds .
+  path: Assets/Materials/Concreat.mat
+  artifactKey: Guid(39dd7ac3fb63b41449a79349fbc75996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Concreat.mat using Guid(39dd7ac3fb63b41449a79349fbc75996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec06c143cb1c1a93389e7bba8633b7b') in 0.031747 seconds
+  Import took 0.040559 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 153.876137 seconds.
-  path: Assets/Desert Buildings/Prefabs/Desert_Building_V1.prefab
-  artifactKey: Guid(36f3c19a7597eb94987d9f341e3010eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Desert_Building_V1.prefab using Guid(36f3c19a7597eb94987d9f341e3010eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e302fb190e2dc6c3390d5e3139562872') in 0.053501 seconds
-  Import took 0.059997 seconds .
+  Time since last request: 68.015075 seconds.
+  path: Assets/Materials/Sand1/NewLayer 2.terrainlayer
+  artifactKey: Guid(3581033a7a3634f49923a78c25aa009e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sand1/NewLayer 2.terrainlayer using Guid(3581033a7a3634f49923a78c25aa009e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '635c771a820b58c8e8d47c00434f3806') in 0.026428 seconds
+  Import took 0.031851 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Desert Buildings/Prefabs/domki.prefab
-  artifactKey: Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/domki.prefab using Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd2af4ad27573ff01fc59ae55992a69a') in 0.115096 seconds
-  Import took 0.142465 seconds .
+  Time since last request: 1.515835 seconds.
+  path: Assets/Materials/Sand1/NewLayer 1.terrainlayer
+  artifactKey: Guid(452e0d01a807016408aeeb2483d8b1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sand1/NewLayer 1.terrainlayer using Guid(452e0d01a807016408aeeb2483d8b1e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5330ea69a2cf97be798b17f564552797') in 0.031641 seconds
+  Import took 0.036250 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/Desert Buildings/Prefabs/Domki 2 1.prefab
-  artifactKey: Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Domki 2 1.prefab using Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7aa62c7fa6ce1fed7111226df22fb2e') in 0.098378 seconds
-  Import took 0.108066 seconds .
+  Time since last request: 0.371093 seconds.
+  path: Assets/Materials/Sand1/NewLayer.terrainlayer
+  artifactKey: Guid(790ca927f60e5eb409e06d7b6c93d7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Sand1/NewLayer.terrainlayer using Guid(790ca927f60e5eb409e06d7b6c93d7b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9812cbd438e97e4a63baf40d03172f69') in 0.029953 seconds
+  Import took 0.034832 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 44.984872 seconds.
-  path: Assets/Materials/MetalSheet 1.mat
-  artifactKey: Guid(e971aadddcdad6748944c467960c48ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/MetalSheet 1.mat using Guid(e971aadddcdad6748944c467960c48ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2071f31f8bd37bdd83c1c3bbbb8aeb23') in 0.066232 seconds
-  Import took 0.070865 seconds .
+  Time since last request: 323.374564 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(b8920b1c4b55c534bbfbede3f7eab96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(b8920b1c4b55c534bbfbede3f7eab96c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15b09b96973980c0359c8e09fc02e7d') in 0.027093 seconds
+  Import took 0.032658 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.002497 seconds.
-  path: Assets/Materials/MetalSheet 1.mat
-  artifactKey: Guid(e971aadddcdad6748944c467960c48ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Materials/MetalSheet 1.mat using Guid(e971aadddcdad6748944c467960c48ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2071f31f8bd37bdd83c1c3bbbb8aeb23') in 0.035686 seconds
-  Import took 0.043411 seconds .
+  Time since last request: 17.236793 seconds.
+  path: Assets/Enemy/ENEMI/DropShip2.prefab
+  artifactKey: Guid(fcdd52663c631344f9838a822c910941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/DropShip2.prefab using Guid(fcdd52663c631344f9838a822c910941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f91b9c971303e0dbc7ebc78e390f608') in 0.028577 seconds
+  Import took 0.033485 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 100.715679 seconds.
-  path: Assets/Desert Buildings/Prefabs/Desert_Building_V5.prefab
-  artifactKey: Guid(3cc32b211ba11174199a64a41ce904c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Desert_Building_V5.prefab using Guid(3cc32b211ba11174199a64a41ce904c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ecdb1ab1a10ad3642158121b5a894b') in 0.080828 seconds
-  Import took 0.087197 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Desert Buildings/Prefabs/domki.prefab
-  artifactKey: Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/domki.prefab using Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1855c762fa6805e8e14e9adfb1e9043d') in 0.105182 seconds
-  Import took 0.115511 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000296 seconds.
-  path: Assets/Desert Buildings/Prefabs/Domki 2 1.prefab
-  artifactKey: Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Domki 2 1.prefab using Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799953d7c74a020e2642efb0b29223dd') in 0.086996 seconds
-  Import took 0.096728 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 168.647667 seconds.
-  path: Assets/Desert Buildings/Prefabs/Desert_Building_V3.prefab
-  artifactKey: Guid(14109c6f26a2be34c8ac4c0eb01f3aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Desert_Building_V3.prefab using Guid(14109c6f26a2be34c8ac4c0eb01f3aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0586aa60793d52328c8e017f6e4f4bc') in 0.040452 seconds
-  Import took 0.046567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Desert Buildings/Prefabs/domki.prefab
-  artifactKey: Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/domki.prefab using Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10fdd36b5a84900fe4a8b41f457293af') in 0.103894 seconds
-  Import took 0.126089 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Desert Buildings/Prefabs/Domki 2 1.prefab
-  artifactKey: Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Domki 2 1.prefab using Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ded668f4b07e83f1a60cae891500594') in 0.096558 seconds
-  Import took 0.108260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 95.685468 seconds.
-  path: Assets/Desert Buildings/Prefabs/Desert_Building_V2.prefab
-  artifactKey: Guid(9923332096aa0a54587e28f246da49de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Desert_Building_V2.prefab using Guid(9923332096aa0a54587e28f246da49de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aab5b554a843b0c896ea0982f3290103') in 0.046072 seconds
-  Import took 0.051950 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Desert Buildings/Prefabs/domki.prefab
-  artifactKey: Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/domki.prefab using Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229e6ae4747b5f54687ccad9252c9ad6') in 0.107114 seconds
-  Import took 0.129431 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 23.853108 seconds.
-  path: Assets/Desert Buildings/Textures/Desert_Building_V1_AlbedoTransparency.png
-  artifactKey: Guid(33a7e5f4696b37d4aae7c5a1f057a90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Textures/Desert_Building_V1_AlbedoTransparency.png using Guid(33a7e5f4696b37d4aae7c5a1f057a90b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30751c792907204e6532bde2f33d5d21') in 0.068785 seconds
-  Import took 0.074874 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Desert Buildings/Textures/Desert_Building_V2_Normal.png
-  artifactKey: Guid(6a74d327ed718f34c9804e7c44849c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Textures/Desert_Building_V2_Normal.png using Guid(6a74d327ed718f34c9804e7c44849c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1bcb44370bbd7a49a605c14986df34') in 0.055539 seconds
-  Import took 0.060008 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Desert Buildings/Textures/Desert_Building_V3_Normal.png
-  artifactKey: Guid(a79cb7aa9eae89247902725181798fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Textures/Desert_Building_V3_Normal.png using Guid(a79cb7aa9eae89247902725181798fe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee3c28114a7ef5047ca8e2177348ee6') in 0.020426 seconds
-  Import took 0.025605 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/Desert Buildings/Textures/Desert_Building_V1_Normal.png
-  artifactKey: Guid(0b21089cda09b2d43a44d3b9715267cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Textures/Desert_Building_V1_Normal.png using Guid(0b21089cda09b2d43a44d3b9715267cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6227cff44dcd125a7e119aa0f60b2e4') in 0.022300 seconds
-  Import took 0.040656 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Desert Buildings/Textures/Desert_Building_V2_AlbedoTransparency.png
-  artifactKey: Guid(3b2baef91083fd04496d07d1c6777790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Textures/Desert_Building_V2_AlbedoTransparency.png using Guid(3b2baef91083fd04496d07d1c6777790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2755481f21880568cd36548f345138c') in 0.017925 seconds
-  Import took 0.023262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Desert Buildings/Textures/Desert_Building_V2_MetallicSmoothness.png
-  artifactKey: Guid(749cd4ebdc5e32b4d86cf9aba860355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Textures/Desert_Building_V2_MetallicSmoothness.png using Guid(749cd4ebdc5e32b4d86cf9aba860355a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60a256d08f381989e71f69a7321c6498') in 0.020591 seconds
-  Import took 0.027964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Desert Buildings/Textures/Desert_Building_V5_MetallicSmoothness.png
-  artifactKey: Guid(468ceaa59f820e74ba510d0503803f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Textures/Desert_Building_V5_MetallicSmoothness.png using Guid(468ceaa59f820e74ba510d0503803f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca6f52ebeedf2c297d922e9c3b9cb016') in 0.020076 seconds
-  Import took 0.025585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Desert Buildings/Textures/Desert_Building_V3_AlbedoTransparency.png
-  artifactKey: Guid(8dcbdcc0a99403842ad7ce1073e73be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Textures/Desert_Building_V3_AlbedoTransparency.png using Guid(8dcbdcc0a99403842ad7ce1073e73be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc00e57bb85107375e5f7aed86a30568') in 0.018380 seconds
-  Import took 0.023625 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Desert Buildings/Textures/Desert_Building_V4_MetallicSmoothness.png
-  artifactKey: Guid(df18f583dcb59ca44939414076f8592b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Textures/Desert_Building_V4_MetallicSmoothness.png using Guid(df18f583dcb59ca44939414076f8592b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b62a0215426617d7ea458b4272a69db8') in 0.016698 seconds
-  Import took 0.021706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Desert Buildings/Textures/Desert_Building_V5_Normal.png
-  artifactKey: Guid(53c15e5a041d5f444956c70faa587593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Textures/Desert_Building_V5_Normal.png using Guid(53c15e5a041d5f444956c70faa587593) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bbea643d3706edbef05ea466be16a3f') in 0.021446 seconds
-  Import took 0.026277 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Desert Buildings/Textures/Desert_Building_V4_AlbedoTransparency.png
-  artifactKey: Guid(e50e797a76d91e24995c7e638c20c03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Textures/Desert_Building_V4_AlbedoTransparency.png using Guid(e50e797a76d91e24995c7e638c20c03b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85534a8592443d43202c8ffc981a9fa0') in 0.024258 seconds
-  Import took 0.029143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Desert Buildings/Textures/Desert_Building_V4_Normal.png
-  artifactKey: Guid(15f843ed9ce06d84198c87c154f0067f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Textures/Desert_Building_V4_Normal.png using Guid(15f843ed9ce06d84198c87c154f0067f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f3851e5ba87489034b008d3af069d78') in 0.034212 seconds
-  Import took 0.053015 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Desert Buildings/Textures/Desert_Building_V1_MetallicSmoothness.png
-  artifactKey: Guid(fb50cdcd34369f94eabf323b361e7fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Textures/Desert_Building_V1_MetallicSmoothness.png using Guid(fb50cdcd34369f94eabf323b361e7fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5e9cb8d6419e1372ed0eb542961952') in 0.015545 seconds
-  Import took 0.020219 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Desert Buildings/Textures/Desert_Building_V5_AlbedoTransparency.png
-  artifactKey: Guid(50120ee86de518a4b85e1d00006b0d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Textures/Desert_Building_V5_AlbedoTransparency.png using Guid(50120ee86de518a4b85e1d00006b0d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9d3b70d20b8232f0ec3f27135f4986') in 0.024327 seconds
-  Import took 0.029823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Desert Buildings/Textures/Desert_Building_V3_MetallicSmoothness.png
-  artifactKey: Guid(2998659bbc18c664db1e6e85d2d1b741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Textures/Desert_Building_V3_MetallicSmoothness.png using Guid(2998659bbc18c664db1e6e85d2d1b741) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '319f673b6c79901412b49a27d6c74a67') in 0.019766 seconds
-  Import took 0.024711 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002202 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.233 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2118 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.1 MB.
-System memory in use after: 208.2 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2723.
-Total: 2.698600 ms (FindLiveObjects: 0.300400 ms CreateObjectMapping: 0.152500 ms MarkObjects: 2.227500 ms  DeleteObjects: 0.016800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 277.652998 seconds.
-  path: Assets/Animations/New Animator Controller.controller
-  artifactKey: Guid(469e231132203f749adfa8b1f3f566d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/New Animator Controller.controller using Guid(469e231132203f749adfa8b1f3f566d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13dfb9c780696225980b63ce5955cc89') in 0.030264 seconds
-  Import took 0.043406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.524809 seconds.
-  path: Assets/Animations/Destroy.controller
-  artifactKey: Guid(469e231132203f749adfa8b1f3f566d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Destroy.controller using Guid(469e231132203f749adfa8b1f3f566d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd02dfb1bb0f422ea080d51aca95392a8') in 0.013375 seconds
-  Import took 0.043678 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 40.559104 seconds.
-  path: Assets/Desert Buildings/Prefabs/Desert_Building_V4.prefab
-  artifactKey: Guid(e3deda9cbdf55484a80b96efb01909cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Desert_Building_V4.prefab using Guid(e3deda9cbdf55484a80b96efb01909cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf53ae59b1c99d29d1a839b4d1ee5918') in 0.089558 seconds
-  Import took 0.121821 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/Desert Buildings/Prefabs/domki.prefab
-  artifactKey: Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/domki.prefab using Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7193f68f94354448dc5aaf29679c2f9') in 0.116944 seconds
-  Import took 0.149418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Desert Buildings/Prefabs/Domki 2 1.prefab
-  artifactKey: Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Domki 2 1.prefab using Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0da64ca0c14e84e620e0a08df2921955') in 0.095454 seconds
-  Import took 0.148811 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 984.281578 seconds.
+  Time since last request: 0.098597 seconds.
   path: Assets/Enemy/ENEMI/OrbitalBattery.prefab
   artifactKey: Guid(240f61c8b2f85b848a50c25c827f5795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/ENEMI/OrbitalBattery.prefab using Guid(240f61c8b2f85b848a50c25c827f5795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe456295454f7e2e01f4a15ecf554ae') in 0.032204 seconds
-  Import took 0.058500 seconds .
+Start importing Assets/Enemy/ENEMI/OrbitalBattery.prefab using Guid(240f61c8b2f85b848a50c25c827f5795) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06032772124cf70878d9cf20230e12dd') in 0.091083 seconds
+  Import took 0.097556 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 198.264873 seconds.
-  path: Assets/Enemy/SpawnerMilitia.prefab
-  artifactKey: Guid(f36b8afc80c6c5347b4149d6c5e90141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/SpawnerMilitia.prefab using Guid(f36b8afc80c6c5347b4149d6c5e90141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2daafad9f973c170b178da09b412398') in 0.036577 seconds
-  Import took 0.053557 seconds .
+  Time since last request: 96.141000 seconds.
+  path: Assets/Enemy/ENEMI/1APC.fbx
+  artifactKey: Guid(c741890159d289d48aafed8c3b1d4528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/1APC.fbx using Guid(c741890159d289d48aafed8c3b1d4528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e206c428871d0f0223026fbc4536be88') in 0.115166 seconds
+  Import took 0.121536 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.004011 seconds.
-  path: Assets/Enemy/SpawnerMilitia.prefab
-  artifactKey: Guid(f36b8afc80c6c5347b4149d6c5e90141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/SpawnerMilitia.prefab using Guid(f36b8afc80c6c5347b4149d6c5e90141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2daafad9f973c170b178da09b412398') in 0.020417 seconds
-  Import took 0.030919 seconds .
+  Time since last request: 73.410291 seconds.
+  path: Assets/Enemy/ENEMI/1APC.prefab
+  artifactKey: Guid(ce681c7024b4a854fb41b8fd234b66b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/1APC.prefab using Guid(ce681c7024b4a854fb41b8fd234b66b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea96dc469051f458bb44424e9fffe266') in 0.016149 seconds
+  Import took 0.022040 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 109.296231 seconds.
-  path: Assets/Enemy/SpawnerMilitia.prefab
-  artifactKey: Guid(f36b8afc80c6c5347b4149d6c5e90141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemy/SpawnerMilitia.prefab using Guid(f36b8afc80c6c5347b4149d6c5e90141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad462eb1342ee39817056784137f6b8f') in 0.027930 seconds
-  Import took 0.047200 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002320 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.03 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.572 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.97 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2118 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.3 MB.
-System memory in use after: 208.4 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2728.
-Total: 3.404200 ms (FindLiveObjects: 0.420700 ms CreateObjectMapping: 0.220500 ms MarkObjects: 2.731700 ms  DeleteObjects: 0.029400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2111.634624 seconds.
-  path: Assets/Particles/SpawnerMilitia.prefab
-  artifactKey: Guid(f36b8afc80c6c5347b4149d6c5e90141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particles/SpawnerMilitia.prefab using Guid(f36b8afc80c6c5347b4149d6c5e90141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47eea3977f36554c3c345717323320d9') in 0.151678 seconds
-  Import took 0.177104 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 285.538887 seconds.
-  path: Assets/Particles/SpawnerMilitia.prefab
-  artifactKey: Guid(f36b8afc80c6c5347b4149d6c5e90141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particles/SpawnerMilitia.prefab using Guid(f36b8afc80c6c5347b4149d6c5e90141) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0ef2d060e794184a65fada78702fec') in 0.063336 seconds
-  Import took 0.100964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 284.998236 seconds.
-  path: Assets/ShootingAnimationController.cs
-  artifactKey: Guid(ecf07837760a6ec46be1c3801a8635be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShootingAnimationController.cs using Guid(ecf07837760a6ec46be1c3801a8635be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8c4e99c8e2933dbde77e424b8a3963') in 0.068124 seconds
-  Import took 0.148787 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.756188 seconds.
-  path: Assets/ShootingAiTut.cs
-  artifactKey: Guid(ac9ef434199542949a9cb8bbaf55e86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShootingAiTut.cs using Guid(ac9ef434199542949a9cb8bbaf55e86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec30fa146e4169ccef774cf9e9159f2') in 0.008458 seconds
-  Import took 0.037652 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.056388 seconds.
-  path: Assets/ShootingAiTut.cs
-  artifactKey: Guid(ac9ef434199542949a9cb8bbaf55e86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ShootingAiTut.cs using Guid(ac9ef434199542949a9cb8bbaf55e86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ec30fa146e4169ccef774cf9e9159f2') in 0.020451 seconds
-  Import took 0.045809 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.482492 seconds.
-  path: Assets/ParticleDMG.cs
-  artifactKey: Guid(cba8cce8196d61f4e82f889f8945adf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParticleDMG.cs using Guid(cba8cce8196d61f4e82f889f8945adf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3a779c76e51357cea70a1138c8a239') in 0.008385 seconds
-  Import took 0.049048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.874895 seconds.
-  path: Assets/ParticleDMG.cs
-  artifactKey: Guid(cba8cce8196d61f4e82f889f8945adf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParticleDMG.cs using Guid(cba8cce8196d61f4e82f889f8945adf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c3a779c76e51357cea70a1138c8a239') in 0.005768 seconds
-  Import took 0.012404 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.925164 seconds.
-  path: Assets/ParticalEnemyDMG.cs
-  artifactKey: Guid(51d8a9b047025a34aa6fb8c4dc0820e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ParticalEnemyDMG.cs using Guid(51d8a9b047025a34aa6fb8c4dc0820e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb47b0a169b62a466a7d8ac2778e69ac') in 0.010237 seconds
-  Import took 0.034770 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 17.111971 seconds.
-  path: Assets/ScriptROBO/AlphaWaveSpawner.cs
-  artifactKey: Guid(9f07f8c83616bb34ab7f2a37ed3c7159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/AlphaWaveSpawner.cs using Guid(9f07f8c83616bb34ab7f2a37ed3c7159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25ed9b1d42316ff7715edec5f8f91636') in 0.023440 seconds
-  Import took 0.039850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.319456 seconds.
-  path: Assets/ScriptROBO/SoundMenager.cs
-  artifactKey: Guid(5681bc2188612a1438ded6007b8bfaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/SoundMenager.cs using Guid(5681bc2188612a1438ded6007b8bfaa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f9197ab5fd5667dad72617b4c2dbe99') in 0.009972 seconds
-  Import took 0.126574 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002298 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.706 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2118 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.3 MB.
-System memory in use after: 208.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2732.
-Total: 2.438500 ms (FindLiveObjects: 0.250900 ms CreateObjectMapping: 0.099400 ms MarkObjects: 2.070500 ms  DeleteObjects: 0.016600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001216 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.543 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2118 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.4 MB.
-System memory in use after: 208.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2735.
-Total: 2.821300 ms (FindLiveObjects: 0.301800 ms CreateObjectMapping: 0.196100 ms MarkObjects: 2.305600 ms  DeleteObjects: 0.016700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001313 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.013 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2118 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.3 MB.
-System memory in use after: 208.5 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2738.
-Total: 3.682100 ms (FindLiveObjects: 0.320100 ms CreateObjectMapping: 0.129700 ms MarkObjects: 3.207300 ms  DeleteObjects: 0.023700 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001310 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.944 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.33 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2118 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.4 MB.
-System memory in use after: 208.6 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2741.
-Total: 3.043900 ms (FindLiveObjects: 0.282000 ms CreateObjectMapping: 0.126500 ms MarkObjects: 2.612400 ms  DeleteObjects: 0.021600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 1265.492031 seconds.
-  path: Assets/ScriptROBO/Health/Slider.png
-  artifactKey: Guid(50420193990965b43b19a53db7a4cb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/Health/Slider.png using Guid(50420193990965b43b19a53db7a4cb6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c43f6caab9be6fd2e488ff145ae2db') in 0.169761 seconds
-  Import took 0.197194 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.306486 seconds.
-  path: Assets/ScriptROBO/BudynkiHp.cs
-  artifactKey: Guid(a691dba04e2929244bb4550f2545f0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/BudynkiHp.cs using Guid(a691dba04e2929244bb4550f2545f0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98fd44043e479efe40df2fb03376a83f') in 0.016326 seconds
-  Import took 0.042893 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001443 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.161 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.53 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2119 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.5 MB.
-System memory in use after: 208.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2746.
-Total: 3.606500 ms (FindLiveObjects: 0.390100 ms CreateObjectMapping: 0.168700 ms MarkObjects: 3.024300 ms  DeleteObjects: 0.021100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002957 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.134 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2119 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.5 MB.
-System memory in use after: 208.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2749.
-Total: 2.857500 ms (FindLiveObjects: 0.438400 ms CreateObjectMapping: 0.146900 ms MarkObjects: 2.253100 ms  DeleteObjects: 0.017900 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 689.683460 seconds.
-  path: Assets/ScriptROBO/BudynkiHp.cs
-  artifactKey: Guid(a691dba04e2929244bb4550f2545f0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/BudynkiHp.cs using Guid(a691dba04e2929244bb4550f2545f0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4078c0ea12e4836d9b3978abc51b2bce') in 0.005999 seconds
-  Import took 0.028585 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001129 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.220 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2119 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.5 MB.
-System memory in use after: 208.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2752.
-Total: 2.673600 ms (FindLiveObjects: 0.291200 ms CreateObjectMapping: 0.115200 ms MarkObjects: 2.248900 ms  DeleteObjects: 0.017000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 86.674173 seconds.
-  path: Assets/Weaponry/Gun 1.prefab
-  artifactKey: Guid(9ec86a6417c392046ad8dee3ae972022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weaponry/Gun 1.prefab using Guid(9ec86a6417c392046ad8dee3ae972022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33d5ee1298b4b588fb76bf6953c2625') in 0.208422 seconds
-  Import took 0.238781 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.812569 seconds.
-  path: Assets/Desert Buildings/Prefabs/Desert_Building_V1.prefab
-  artifactKey: Guid(36f3c19a7597eb94987d9f341e3010eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Desert_Building_V1.prefab using Guid(36f3c19a7597eb94987d9f341e3010eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '158ab8f9062bc7a1e651c6a0b193a3bf') in 0.706390 seconds
-  Import took 0.726110 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Desert Buildings/Prefabs/domki.prefab
-  artifactKey: Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/domki.prefab using Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979791c18bdc5af90987af1476aa21fc') in 1.226845 seconds
-  Import took 1.281855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Desert Buildings/Prefabs/Domki 2 1.prefab
-  artifactKey: Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Domki 2 1.prefab using Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69afda9b79b90998f88b3187c23c29d4') in 0.111059 seconds
-  Import took 0.174685 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 25.400322 seconds.
-  path: Assets/Bullet.prefab
-  artifactKey: Guid(fdcf416d0f0e69641a39c10d573ac332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bullet.prefab using Guid(fdcf416d0f0e69641a39c10d573ac332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d0cc47a3b8913d0ef6ad51ad223a844') in 0.059950 seconds
-  Import took 0.088206 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 38.808809 seconds.
-  path: Assets/ScriptROBO/PlayerShooting.cs
-  artifactKey: Guid(df957b8e8755746428a922439d0380e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/PlayerShooting.cs using Guid(df957b8e8755746428a922439d0380e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5bdca578dc374100f93eddf314d3b7') in 0.008762 seconds
-  Import took 0.068024 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018888 seconds.
-  path: Assets/ScriptROBO/PlayerShooting.cs
-  artifactKey: Guid(df957b8e8755746428a922439d0380e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/PlayerShooting.cs using Guid(df957b8e8755746428a922439d0380e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5bdca578dc374100f93eddf314d3b7') in 0.026222 seconds
-  Import took 0.031893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.135483 seconds.
-  path: Assets/ScriptROBO/Enemy.cs
-  artifactKey: Guid(a796e77030dc0fc469efb487e9b501ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/Enemy.cs using Guid(a796e77030dc0fc469efb487e9b501ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82b616614cb5a03fc1e38db1f2f550f9') in 0.006514 seconds
-  Import took 0.060826 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 464.467806 seconds.
-  path: Assets/ScriptROBO/DIeICoinsy.cs
-  artifactKey: Guid(e06ea8a97694a904c86e57f8f8fd609e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/DIeICoinsy.cs using Guid(e06ea8a97694a904c86e57f8f8fd609e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ca7d934c73d4a6ef903f1d50fc8472') in 0.011489 seconds
-  Import took 0.386335 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002270 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.154 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.5 MB.
-System memory in use after: 208.7 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2757.
-Total: 2.779100 ms (FindLiveObjects: 0.271300 ms CreateObjectMapping: 0.103400 ms MarkObjects: 2.384500 ms  DeleteObjects: 0.018900 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001221 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.59 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.139 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.54 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2120 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.6 MB.
-System memory in use after: 208.8 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2760.
-Total: 2.342800 ms (FindLiveObjects: 0.261100 ms CreateObjectMapping: 0.103200 ms MarkObjects: 1.960800 ms  DeleteObjects: 0.016500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 675.151238 seconds.
-  path: Assets/Enemies.prefab
-  artifactKey: Guid(cb381266174eab64693f19bfcd0fd44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies.prefab using Guid(cb381266174eab64693f19bfcd0fd44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cf1b52e6937469f550349437518d039') in 0.191660 seconds
-  Import took 0.221591 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 57.129041 seconds.
-  path: Assets/Enemies.prefab
-  artifactKey: Guid(cb381266174eab64693f19bfcd0fd44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Enemies.prefab using Guid(cb381266174eab64693f19bfcd0fd44b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552489498006cfd98294feb9669f055d') in 0.034622 seconds
-  Import took 0.060727 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 61.325361 seconds.
-  path: Assets/Bullet.prefab
-  artifactKey: Guid(fdcf416d0f0e69641a39c10d573ac332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Bullet.prefab using Guid(fdcf416d0f0e69641a39c10d573ac332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf934cd694780ad6a7248188f46e4249') in 0.009466 seconds
-  Import took 0.038709 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.513735 seconds.
-  path: Assets/Desert Buildings/Prefabs/Desert_Building_V2.prefab
-  artifactKey: Guid(9923332096aa0a54587e28f246da49de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Desert_Building_V2.prefab using Guid(9923332096aa0a54587e28f246da49de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e13723fc8ada447bf2e9a96c8ef12a') in 0.042115 seconds
-  Import took 0.072153 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000250 seconds.
-  path: Assets/Desert Buildings/Prefabs/domki.prefab
-  artifactKey: Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/domki.prefab using Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3aa7b4392af37b01714dc21f822c941c') in 0.113375 seconds
-  Import took 0.137699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.873444 seconds.
-  path: Assets/ScriptROBO/BudynkiHp.cs
-  artifactKey: Guid(a691dba04e2929244bb4550f2545f0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ScriptROBO/BudynkiHp.cs using Guid(a691dba04e2929244bb4550f2545f0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de34ec08de8600c55e273d14b19546f') in 0.004138 seconds
-  Import took 0.033945 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001187 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.006 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.77 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2119 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.5 MB.
-System memory in use after: 208.8 MB.
-
-Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 2763.
-Total: 3.917700 ms (FindLiveObjects: 0.496200 ms CreateObjectMapping: 0.154700 ms MarkObjects: 3.241600 ms  DeleteObjects: 0.023200 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.950537 seconds.
-  path: Assets/Desert Buildings/Prefabs/Desert_Building_V1.prefab
-  artifactKey: Guid(36f3c19a7597eb94987d9f341e3010eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Desert_Building_V1.prefab using Guid(36f3c19a7597eb94987d9f341e3010eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1049322d9120785d6a70487a7f160e') in 0.108210 seconds
-  Import took 0.132573 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Desert Buildings/Prefabs/domki.prefab
-  artifactKey: Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/domki.prefab using Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90a98c4469761055037c723280c34cd') in 0.111297 seconds
-  Import took 0.139166 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Desert Buildings/Prefabs/Domki 2 1.prefab
-  artifactKey: Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Domki 2 1.prefab using Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd159c79ba973ffbc3e8bf6450f4f18d7') in 0.089098 seconds
-  Import took 0.109058 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 87.002238 seconds.
-  path: Assets/Desert Buildings/Prefabs/Desert_Building_V3.prefab
-  artifactKey: Guid(14109c6f26a2be34c8ac4c0eb01f3aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Desert_Building_V3.prefab using Guid(14109c6f26a2be34c8ac4c0eb01f3aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e87df3ad3e4a5d343341c79c8b800a') in 0.036357 seconds
-  Import took 0.057349 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Desert Buildings/Prefabs/domki.prefab
-  artifactKey: Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/domki.prefab using Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6acce6d75e1ffa5dc85db8fcd6862da') in 0.106086 seconds
-  Import took 0.132823 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Desert Buildings/Prefabs/Domki 2 1.prefab
-  artifactKey: Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Domki 2 1.prefab using Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b3b820a443416cd31ab089536f427b') in 0.093738 seconds
-  Import took 0.115947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.658884 seconds.
-  path: Assets/Desert Buildings/Prefabs/Desert_Building_V4.prefab
-  artifactKey: Guid(e3deda9cbdf55484a80b96efb01909cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Desert_Building_V4.prefab using Guid(e3deda9cbdf55484a80b96efb01909cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fb53e14c5d9083c468fabac6a077ac') in 0.040331 seconds
-  Import took 0.061949 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000419 seconds.
-  path: Assets/Desert Buildings/Prefabs/domki.prefab
-  artifactKey: Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/domki.prefab using Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ce8f1203171784f0218c9a982df20ab') in 0.106460 seconds
-  Import took 0.126641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/Desert Buildings/Prefabs/Domki 2 1.prefab
-  artifactKey: Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Domki 2 1.prefab using Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4837ebc9fe294b4e2fb6e6bda9f3276') in 0.095221 seconds
-  Import took 0.120300 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 140.525213 seconds.
-  path: Assets/Desert Buildings/Prefabs/Desert_Building_V5.prefab
-  artifactKey: Guid(3cc32b211ba11174199a64a41ce904c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Desert_Building_V5.prefab using Guid(3cc32b211ba11174199a64a41ce904c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a9c736e63c146cab44b82e1c9a7f91') in 0.036946 seconds
-  Import took 0.043681 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Desert Buildings/Prefabs/domki.prefab
-  artifactKey: Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/domki.prefab using Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac56ecba1138c58b8d4079e2ffde7298') in 0.110494 seconds
-  Import took 0.140085 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/Desert Buildings/Prefabs/Domki 2 1.prefab
-  artifactKey: Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Domki 2 1.prefab using Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cfb05f1362071226e89527e736a211') in 0.095558 seconds
-  Import took 0.114031 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001210 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.72 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.173 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2119 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.7 MB.
-System memory in use after: 209.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2767.
-Total: 2.963000 ms (FindLiveObjects: 0.266100 ms CreateObjectMapping: 0.095800 ms MarkObjects: 2.557000 ms  DeleteObjects: 0.043100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 58.487894 seconds.
-  path: Assets/Desert Buildings/Prefabs/domki.prefab
-  artifactKey: Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/domki.prefab using Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3662012dd5ef1878de52c09a1d3b5666') in 0.161659 seconds
-  Import took 0.192457 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/Desert Buildings/Prefabs/Desert_Building_V2.prefab
-  artifactKey: Guid(9923332096aa0a54587e28f246da49de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Desert_Building_V2.prefab using Guid(9923332096aa0a54587e28f246da49de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76b13227ea9cff61a4cf4a0e8dbe2990') in 0.044869 seconds
-  Import took 0.059667 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.710921 seconds.
-  path: Assets/Desert Buildings/Prefabs/Desert_Building_V1.prefab
-  artifactKey: Guid(36f3c19a7597eb94987d9f341e3010eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Desert_Building_V1.prefab using Guid(36f3c19a7597eb94987d9f341e3010eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54c98af52efd6930767074074b39ce5e') in 0.040439 seconds
-  Import took 0.063165 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Desert Buildings/Prefabs/domki.prefab
-  artifactKey: Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/domki.prefab using Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baaac458c18c4f04cce554327197c131') in 0.099253 seconds
-  Import took 0.237796 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Desert Buildings/Prefabs/Domki 2 1.prefab
-  artifactKey: Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Domki 2 1.prefab using Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e22fc0490ee45e395dde2684a81cfc') in 0.091464 seconds
-  Import took 0.112932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.819439 seconds.
-  path: Assets/Desert Buildings/Prefabs/Desert_Building_V3.prefab
-  artifactKey: Guid(14109c6f26a2be34c8ac4c0eb01f3aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Desert_Building_V3.prefab using Guid(14109c6f26a2be34c8ac4c0eb01f3aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56714c508ecae97b30f205dce37c2acf') in 0.048628 seconds
-  Import took 0.069930 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/Desert Buildings/Prefabs/domki.prefab
-  artifactKey: Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/domki.prefab using Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dbff0ca3652a613482b73e5a4e6cbfd') in 0.115183 seconds
-  Import took 0.131079 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000217 seconds.
-  path: Assets/Desert Buildings/Prefabs/Domki 2 1.prefab
-  artifactKey: Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Domki 2 1.prefab using Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eaedcf4d4b0f437306f41f89ddce169') in 0.084463 seconds
-  Import took 0.096432 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.977204 seconds.
-  path: Assets/Desert Buildings/Prefabs/Desert_Building_V5.prefab
-  artifactKey: Guid(3cc32b211ba11174199a64a41ce904c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Desert_Building_V5.prefab using Guid(3cc32b211ba11174199a64a41ce904c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e3d0c61d7ef526a8bf419b3e3a8a71a') in 0.042955 seconds
-  Import took 0.067180 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Desert Buildings/Prefabs/domki.prefab
-  artifactKey: Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/domki.prefab using Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a9f0cf50b4f0b3a017f8a44ff68e23') in 0.104088 seconds
-  Import took 0.134333 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Desert Buildings/Prefabs/Domki 2 1.prefab
-  artifactKey: Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Domki 2 1.prefab using Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8852f0f147781526ac1472472677471e') in 0.085622 seconds
-  Import took 0.096993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.706022 seconds.
-  path: Assets/Desert Buildings/Prefabs/Desert_Building_V3.prefab
-  artifactKey: Guid(14109c6f26a2be34c8ac4c0eb01f3aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Desert_Building_V3.prefab using Guid(14109c6f26a2be34c8ac4c0eb01f3aec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '468de0457bdf5ecadb377810189207ec') in 0.060564 seconds
-  Import took 0.089998 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/Desert Buildings/Prefabs/domki.prefab
-  artifactKey: Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/domki.prefab using Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a62013981f5b8e84a2c9959342904364') in 0.109052 seconds
-  Import took 0.137830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Desert Buildings/Prefabs/Domki 2 1.prefab
-  artifactKey: Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Domki 2 1.prefab using Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36a52e467126a83f8fbba28a443982a9') in 0.090559 seconds
-  Import took 0.102404 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001257 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.264 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.65 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2119 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.8 MB.
-System memory in use after: 209.0 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2771.
-Total: 2.854000 ms (FindLiveObjects: 0.296500 ms CreateObjectMapping: 0.142700 ms MarkObjects: 2.376500 ms  DeleteObjects: 0.037300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 115.054286 seconds.
-  path: Assets/Desert Buildings/Prefabs/domki.prefab
-  artifactKey: Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/domki.prefab using Guid(1d6574e610cbccd4c991622fe12045ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9837c34f47341ed919e3e361954a4d') in 0.209540 seconds
-  Import took 0.321927 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Desert Buildings/Prefabs/Domki 2 1.prefab
-  artifactKey: Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Domki 2 1.prefab using Guid(e1f10444e54f7194a9c09222a23fc48b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c91b2016c98dcf4e2f39a1b4dad391') in 0.085979 seconds
-  Import took 0.097011 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Desert Buildings/Prefabs/Desert_Building_V4.prefab
-  artifactKey: Guid(e3deda9cbdf55484a80b96efb01909cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Desert_Building_V4.prefab using Guid(e3deda9cbdf55484a80b96efb01909cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eccc53b75844ae79418d0f4e12bae0e') in 0.037207 seconds
-  Import took 0.050248 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.059252 seconds.
-  path: Assets/Desert Buildings/Prefabs/Desert_Building_V4.prefab
-  artifactKey: Guid(e3deda9cbdf55484a80b96efb01909cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Desert Buildings/Prefabs/Desert_Building_V4.prefab using Guid(e3deda9cbdf55484a80b96efb01909cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eccc53b75844ae79418d0f4e12bae0e') in 0.043464 seconds
-  Import took 0.051497 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001270 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.236 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.68 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2119 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 208.7 MB.
-System memory in use after: 208.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2775.
-Total: 3.542400 ms (FindLiveObjects: 0.267300 ms CreateObjectMapping: 0.582500 ms MarkObjects: 2.670800 ms  DeleteObjects: 0.019300 ms)
+  Time since last request: 0.041910 seconds.
+  path: Assets/Enemy/ENEMI/1APC.prefab
+  artifactKey: Guid(ce681c7024b4a854fb41b8fd234b66b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy/ENEMI/1APC.prefab using Guid(ce681c7024b4a854fb41b8fd234b66b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea96dc469051f458bb44424e9fffe266') in 0.010699 seconds
+  Import took 0.016274 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
