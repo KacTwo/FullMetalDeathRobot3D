@@ -163,6 +163,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinValue: 100
   health: 1
+  deathtime: 2
+  deathParticle: {fileID: 8309607631759557607}
+  deathSound: {fileID: 8300000, guid: 4e4f23dd5fec75f4abc18e17e307d580, type: 3}
+  deathAnimation: {fileID: 7400000, guid: bafcabf332976604aa4f0e504fed6b5e, type: 2}
 --- !u!1001 &3843611983802477941
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -223,5 +227,10 @@ PrefabInstance:
 --- !u!4 &8309607631759557624 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5045976211996307085, guid: c07b5cf6c44b49d4ca58d7dd742c89b1, type: 3}
+  m_PrefabInstance: {fileID: 3843611983802477941}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &8309607631759557607 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5045976211996307090, guid: c07b5cf6c44b49d4ca58d7dd742c89b1, type: 3}
   m_PrefabInstance: {fileID: 3843611983802477941}
   m_PrefabAsset: {fileID: 0}

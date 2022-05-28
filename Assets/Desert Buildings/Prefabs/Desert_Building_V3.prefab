@@ -45,6 +45,7 @@ GameObject:
   - component: {fileID: 4072262723766372563}
   - component: {fileID: 1041224301571126522}
   - component: {fileID: 1743440677077208536}
+  - component: {fileID: 6108896440015039823}
   m_Layer: 0
   m_Name: Desert_Building_V3
   m_TagString: Enemy
@@ -143,6 +144,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinValue: 100
   health: 1
+  deathtime: 2
+  deathParticle: {fileID: 6087553433908724491}
+  deathSound: {fileID: 8300000, guid: 4e4f23dd5fec75f4abc18e17e307d580, type: 3}
+  deathAnimation: {fileID: 7400000, guid: bafcabf332976604aa4f0e504fed6b5e, type: 2}
+--- !u!95 &6108896440015039823
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3483234137367189138}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4343d90c1345c1c4d870300ecb5661a9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &1332429117387877785
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -215,5 +239,10 @@ PrefabInstance:
 --- !u!4 &6087553433908724500 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5045976211996307085, guid: c07b5cf6c44b49d4ca58d7dd742c89b1, type: 3}
+  m_PrefabInstance: {fileID: 1332429117387877785}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &6087553433908724491 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5045976211996307090, guid: c07b5cf6c44b49d4ca58d7dd742c89b1, type: 3}
   m_PrefabInstance: {fileID: 1332429117387877785}
   m_PrefabAsset: {fileID: 0}
