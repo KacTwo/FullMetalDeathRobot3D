@@ -43,8 +43,8 @@ public class SoundMenager : MonoBehaviour
 
      void Update() 
     {
-        EffectsSource.volume = EffectsVolume;
-        MusicSource.volume = MusicVolume;
+        //EffectsSource.volume = EffectsVolume;
+        //MusicSource.volume = MusicVolume;
 
     }
 

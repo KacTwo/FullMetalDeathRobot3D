@@ -7,7 +7,7 @@ using System.IO;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-    [SerializeField] private TMP_Text timeScoreText;
+    [SerializeField] private TMP_Text ScoreText;
     [SerializeField] private TMP_Text timeScoreMinuteText;
 
     public float timeScoreMinute =0;
