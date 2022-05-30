@@ -58,6 +58,16 @@ public class PlayerShooting : MonoBehaviour
                 DIeICoinsy.TakeDamage(damage);
             }
 
+            Destructible Destructible = hit.transform.GetComponent<Destructible>();
+            if (Destructible != null)
+            {
+                Destructible.Destruction(damage);
+            }
+
+
+
+
+
 
 
 
