@@ -16,7 +16,6 @@ public class GameManager : MonoBehaviour
     public float totalPointScore = 0;
     public float pointScore = 0;
 
-    
 
 
 
@@ -44,12 +43,12 @@ public class GameManager : MonoBehaviour
     private void Update()  
     {
         /* liczy czas chyba
-        if (timeScore > 59)  //  niepamiï¿½tam co to robi
+        if (timeScore > 59)  //  niepamiêtam co to robi
         {
             timeScore = 0;
             timeScoreMinute += 1;
             timeScoreMinuteText.text = Mathf.FloorToInt(timeScoreMinute).ToString();
-           // CreateText();    //robienie logï¿½w o graczu
+           // CreateText();    //robienie logów o graczu
 
 
         }
@@ -61,7 +60,7 @@ public class GameManager : MonoBehaviour
 
     }
     
-    // Robienie logï¿½w o graczach,
+    // Robienie logów o graczach,
     /* public void CreateText()   
      {
          string path = Application.dataPath + "/log.txt";

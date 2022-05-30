@@ -7,33 +7,25 @@ public class SoundMenager : MonoBehaviour
 
     public AudioSource EffectsSource;
     public AudioSource MusicSource;
-    private float MusicVolume = 1f;
-    private float EffectsVolume = 1f;
+    public float MusicVolume = 1f;
+    public float EffectsVolume = 1f;
   
 
     public static SoundMenager instance = null;
 
-
-    private void HoldSM ()
+    private void Awake()
     {
-         if (instance != null)
+        if (instance == null)
+        {
+            instance = this;
+        }
+
+        else if (instance != this)
         {
             Destroy(gameObject);
         }
-        else
-        {
-            instance = this;
-            DontDestroyOnLoad(gameObject);
-        }
-    }
 
-
-
-
-
-    private void Awake()
-    {
-       HoldSM();
+        DontDestroyOnLoad(gameObject);
     }
 
     public void Play (AudioClip clip)
@@ -51,8 +43,8 @@ public class SoundMenager : MonoBehaviour
 
      void Update() 
     {
-        EffectsSource.volume = EffectsVolume;
-        MusicSource.volume = MusicVolume;
+        //EffectsSource.volume = EffectsVolume;
+        //MusicSource.volume = MusicVolume;
 
     }
 
