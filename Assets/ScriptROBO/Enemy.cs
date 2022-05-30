@@ -10,7 +10,7 @@ public class Enemy : MonoBehaviour
     // float health = 50f; //
 
     // Varibles
-
+    public GameObject enemiavatar;
     public float gruntValue = 0;
 
     public NavMeshAgent agent;
@@ -87,6 +87,7 @@ public class Enemy : MonoBehaviour
   private void ChasePlayer()
     {
         agent.SetDestination(player.position);
+        enemiavatar.GetComponent<Animator>().Play("rafilerun");
     }
 
   private void AttackPlayer()
@@ -94,6 +95,9 @@ public class Enemy : MonoBehaviour
         agent.SetDestination(transform.position);
 
         transform.LookAt(player);
+
+        enemiavatar.GetComponent<Animator>().Play("rafileaim");
+
 
         if (!alreadyAttacked)
         {
