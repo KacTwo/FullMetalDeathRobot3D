@@ -22,7 +22,7 @@ public class PlayerHealth : MonoBehaviour
 
     void update()
     {
-       if (currentHealth <= 0)
+       if (currentHealth <= 0f)
         {
             SceneManager.LoadScene("Sklep1");
                 }
