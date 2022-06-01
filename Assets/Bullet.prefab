@@ -280,6 +280,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinValue: 1
   health: 1
+  deathtime: 0.1
+  deathParticle: {fileID: 2207408797805671270, guid: 83bcfd020d06bba489453086b6ab200e, type: 3}
+  deathSound: {fileID: 8300000, guid: 191f0ecb43614ac4ba6521b42895f217, type: 3}
 --- !u!1 &5152315509569268108
 GameObject:
   m_ObjectHideFlags: 0
