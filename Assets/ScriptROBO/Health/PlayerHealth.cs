@@ -22,10 +22,7 @@ public class PlayerHealth : MonoBehaviour
 
     void update()
     {
-       if (currentHealth <= 0f)
-        {
-            SceneManager.LoadScene("Sklep1");
-                }
+       
     }
 
 
@@ -34,6 +31,10 @@ public class PlayerHealth : MonoBehaviour
         currentHealth -= damage;
 
         healthbar.SetHealth(currentHealth);
+        if (currentHealth <= 0f)
+        {
+            SceneManager.LoadScene(2);
+        }
     }
 
     public void HealPlayer(int heal)
