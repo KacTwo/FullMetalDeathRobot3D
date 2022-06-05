@@ -459,6 +459,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df957b8e8755746428a922439d0380e5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GunCannon1: {fileID: 0}
   damage: 10
   range: 100
   fpsCam: {fileID: 0}

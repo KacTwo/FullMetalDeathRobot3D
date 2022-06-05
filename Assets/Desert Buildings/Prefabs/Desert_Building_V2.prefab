@@ -144,10 +144,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   coinValue: 100
   health: 1
-  deathtime: 2
+  deathtime: 0.3
   deathParticle: {fileID: 6190832722243759713}
   deathSound: {fileID: 8300000, guid: 4e4f23dd5fec75f4abc18e17e307d580, type: 3}
-  deathAnimation: {fileID: 7400000, guid: bafcabf332976604aa4f0e504fed6b5e, type: 2}
 --- !u!95 &5114252980065763394
 Animator:
   serializedVersion: 3
