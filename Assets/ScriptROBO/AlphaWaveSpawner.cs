@@ -10,11 +10,15 @@ public class AlphaWaveSpawner : MonoBehaviour
     private GameObject Enemy2;
 
     [SerializeField]
-    private float Enemy1Interval=3.5f;
+    private float Enemy1Interval = 3.5f;
     [SerializeField]
-    private float Enemy2Interval=10f;
+    private float Enemy2Interval = 10f;
     [SerializeField]
     public ParticleSystem TeleportEfect;
+    [SerializeField]
+    private float TimeForNextWave = 20f;
+
+
 
 
 
@@ -27,25 +31,32 @@ public class AlphaWaveSpawner : MonoBehaviour
 
     void Start()
     {
-        StartCoroutine(spawnEnemy(Enemy1Interval,Enemy1));
+        StartCoroutine(spawnEnemy(Enemy1Interval, Enemy1));
         StartCoroutine(spawnEnemy(Enemy2Interval, Enemy2));
+
     }
 
     // Update is called once per frame
     
-
+    void Update ()
+    {
+        TimeForNextWave -= Time.deltaTime;
+    }
+   
+    
      IEnumerator spawnEnemy(float interval, GameObject enemy)
     {
-        yield return new WaitForSeconds(interval);
-        GameObject newEnemy = Instantiate(enemy, transform.position, transform.rotation);
-        StartCoroutine(spawnEnemy(interval, enemy));
+        if (TimeForNextWave == 0f)
+        {
+            yield return new WaitForSeconds(interval);
+            GameObject newEnemy = Instantiate(enemy, transform.position, transform.rotation);
+            StartCoroutine(spawnEnemy(interval, enemy));
 
-        TeleportEfect.Play();
-
+            TeleportEfect.Play();
+            TimeForNextWave += 20f;
+        }
+        else { TimeForNextWave  }
     }
-
-
-
 
 
 }
