@@ -10,9 +10,9 @@ public class AlphaWaveSpawner : MonoBehaviour
     private GameObject Enemy2;
 
     [SerializeField]
-    private float Enemy1Interval = 8f;
+    private float Enemy1Interval = 10f;
     [SerializeField]
-    private float Enemy2Interval = 15f;
+    private float Enemy2Interval = 30f;
     [SerializeField]
     public ParticleSystem TeleportEfect;
     [SerializeField]
