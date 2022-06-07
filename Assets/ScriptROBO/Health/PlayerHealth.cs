@@ -8,8 +8,9 @@ public class PlayerHealth : MonoBehaviour
  
     public int maxHealth = 100;
     public int currentHealth;
-
+    public GameObject DeathScreen;
     public HealthBar healthbar;
+    Component Script;
 
     void start ()
     {
@@ -33,7 +34,11 @@ public class PlayerHealth : MonoBehaviour
         healthbar.SetHealth(currentHealth);
         if (currentHealth <= 0f)
         {
-            SceneManager.LoadScene(2);
+            Cursor.lockState = CursorLockMode.None;
+            Time.timeScale = 0f;
+            DeathScreen.SetActive(true);
+            GameObject.Find("FPSRigi").GetComponent<RigidbodyMovement>().enabled = false;
+
         }
     }
 

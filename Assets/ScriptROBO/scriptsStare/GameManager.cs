@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
     public int deathScore = 0;
     public float totalPointScore = 0;
     public float pointScore = 0;
-
+    
 
 
 

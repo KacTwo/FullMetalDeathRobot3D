@@ -6,11 +6,13 @@ public class PlayerShooting : MonoBehaviour
 {
 
     public GameObject GunCannon1;
+    public GameObject GunCannon2;
    
     public float damage = 10f;
     public float range = 100f;
     public Camera fpsCam;
     public ParticleSystem MuzzleFlash;
+    public ParticleSystem MuzzleFlash2;
     public GameObject ImpactEffect;
     public float impactforce = 30f;
     public float Firerate = 15f;
@@ -36,6 +38,7 @@ public class PlayerShooting : MonoBehaviour
        
         
         MuzzleFlash.Play();
+        MuzzleFlash2.Play();
         GunCannon1.GetComponent<Animator>().Play("Idle");
 
         RaycastHit hit;

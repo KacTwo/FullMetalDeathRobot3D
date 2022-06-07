@@ -11,7 +11,7 @@ public class RigidbodyMovement : MonoBehaviour
     [SerializeField] private Transform PlayerCamera;
     [SerializeField] private Rigidbody PlayerBody;
 
-    [SerializeField] private float Speed;
+    [SerializeField] public float Speed;
     [SerializeField] private float Sensitivity;
     [SerializeField] private float jumpForce;
 
