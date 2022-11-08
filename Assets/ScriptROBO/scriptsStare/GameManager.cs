@@ -42,7 +42,7 @@ public class GameManager : MonoBehaviour
     }
     private void Update()  
     {
-        /* liczy czas chyba
+        /* liczy czas 
         if (timeScore > 59)  //  niepamiêtam co to robi
         {
             timeScore = 0;

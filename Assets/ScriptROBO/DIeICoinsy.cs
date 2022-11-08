@@ -11,7 +11,7 @@ public class DIeICoinsy : MonoBehaviour
     [SerializeField] public AudioClip deathSound;
     //[SerializeField] public AnimationClip deathAnimation;
     //[SerializeField] public Animation anim;
-    // animacje nie dizalaja, nie mam sily walczyc z nimi 
+    // animacje nie dizala
     void Start()
     {
        
