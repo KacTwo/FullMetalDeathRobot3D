@@ -18,7 +18,7 @@ public class ParticalEnemyDMG : MonoBehaviour
         {
             DIeICoinsy.TakeDamage(damage); // i tutaj korzystasz z Funkcji która jest w klasie Enemy. 
             damage -= Time.deltaTime;
-            Debug.Log("WaveDMG"); //pojawia się w logu
+            //Debug.Log("WaveDMG"); //pojawia się w logu
 
             
 
